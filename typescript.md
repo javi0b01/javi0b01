@@ -25,6 +25,48 @@ Global
 $ npm install -g typescript
 $ tsc -v
 ```
+##### Setup within a new npm project
+Create a new npm project
+```
+$ npm init -y
+```
+Installing the Compiler
+```
+$ npm install typescript --save-dev
+```
+Configuring the compiler
+```
+$ npx tsc --init
+```
+tsconfig.json file
+```
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+```
+index.ts file
+```
+console.log("Works!")
+```
+Run compiler
+```
+$ npx tsc
+```
 ##### Setup
 Project
 ```
