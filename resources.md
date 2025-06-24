@@ -415,6 +415,7 @@
 #### CSS Analyzer
 - https://www.projectwallace.com/
 #### CSS Animations
+- https://www.transition.style/
 - https://www.matthewlein.com/tools/ceaser
 #### CSS Conversions
 - http://pxtoem.com/
@@ -567,10 +568,12 @@
 - https://undraw.co/
 - https://lukaszadam.com/illustrations
 #### Images
+- https://imgto.xyz/
 - https://morguefile.com/
 - https://placeimg.com/400/200/animals
 - https://placekitten.com/
 - https://pixabay.com/
+- https://squoosh.app/
 - https://svgl.app/
 - https://tinypng.com/
 - https://unsplash.com/
@@ -812,6 +815,7 @@
 - https://tutsplus.com/
 - https://tutorai.me/
 - https://uniwebsidad.com/
+- https://vscodeedu.com/
 - https://w3cx.org/
 - https://web.dev/learn
 - https://webdevelopermentor.com/
@@ -826,6 +830,7 @@
 - http://www.ite.educacion.es/formacion/materiales/182/cd/indice.htm
 - https://www.javascript.com/
 - https://www.jotajotavm.com/
+- https://www.kaggle.com/
 - https://www.khanacademy.org/
 - https://www.mygreatlearning.com/
 - https://www.mygreatlearning.com/academy

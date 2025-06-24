@@ -25,9 +25,9 @@
     - Collections (tables)
     - 16Mb limit
 
-- Database
-- Collections
-- Documents
+* Database
+  * Collections
+    - Documents
 
 - MQL | MongoDB Query Language
 
