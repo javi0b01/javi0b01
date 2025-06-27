@@ -88,6 +88,7 @@
 - [Learn](#learn)
 - [Mail](#mail)
 - [Markdown](#markdown)
+- [Monitoring](#monitoring)
 - [NLP](#lnp)
 - [Open Source](#open-source)
 - [Postmortem](#postmortem)
@@ -852,6 +853,7 @@
 ---
 ### Mail
 - https://mailtrap.io/
+- https://sendy.co/
 
 [:top:](#resources)
 ---
@@ -869,6 +871,11 @@
 - https://github.com/pujux/badge-it
 - https://stackedit.io/
 - https://stackedit.io/
+
+[:top:](#resources)
+---
+### Monitoring
+- https://sentry.io/
 
 [:top:](#resources)
 ---

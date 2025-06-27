@@ -82,6 +82,11 @@ $ mongosh
 > db.<collection name>.deleteOne({_id: ObjectId("0x00")})
 > db.dropDatabase()
 ```
+
+Sample MongoDB connection URI
+```
+mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.xsyfa.mongodb.net/<DATABASE_NAME>?retryWrites=true&w=majority&appName=Cluster0
+```
 ## Software Developer
 Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
