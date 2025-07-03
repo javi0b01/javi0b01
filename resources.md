@@ -122,17 +122,19 @@
 [:top:](#resources)
 ---
 ### AI
-- https://v0.dev/
-- https://bolt.new/
-- https://www.midjourney.com/
-- https://openai.com/index/dall-e-3/
 - https://app.leonardo.ai/
-- https://stabledifffusion.com/
+- https://bolt.new/
 - https://chatgpt.com/
-- https://www.deepseek.com/
 - https://claude.ai/login
+- https://developers.google.com/gemini-code-assist/docs/overview
+- https://github.com/google-gemini/gemini-cli
 - https://grok.com/
+- https://openai.com/index/dall-e-3/
 - https://openwebui.com/
+- https://stabledifffusion.com/
+- https://v0.dev/
+- https://www.deepseek.com/
+- https://www.midjourney.com/
 
 [:top:](#resources)
 ---
