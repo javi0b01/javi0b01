@@ -347,6 +347,48 @@ gh repo clone <REMOTE_URL>
 5. When the *release* branch is done it is merged into **develop** and **main**
 6. If an issue in **main** is detected a *hotfix* branch is created from **main** `hotfix/myfix`
 7. Once the *hotfix* is complete it is merged to both **develop** and **main**
+
+### Generic Commit Messages
+- Update README file
+#### General Purpose
+- chore: general cleanup
+- refactor: improve code structure
+- fix: minor bug fix
+- feat: add new feature
+- update: general update
+- docs: update documentation
+- style: format code
+- test: add/update tests
+#### Development Progress
+- wip: work in progress
+- init: initial commit
+- temp: temporary changes
+- debug: add debug logs
+- remove: delete unused code
+#### Deployment & Releases
+- release: prepare for release
+- build: update build scripts
+- ci: update CI config
+#### Dependency Management
+- deps: update dependencies
+- deps: bump package versions
+- deps: remove unused packages
+#### Cleanup & Maintenance
+- cleanup: remove unused files
+- optimize: improve performance
+- config: update configuration
+#### Top Generic Git Commit Messages
+- init: initial project setup
+- feat: add new feature
+- fix: resolve bug in [feature/module]
+- refactor: improve code structure
+- style: format code and clean up
+- docs: update README or documentation
+- test: add or update tests
+- chore: general maintenance tasks
+- build: update build configuration
+- release: prepare for version release
+
 ## Software Developer
 Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

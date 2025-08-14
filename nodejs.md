@@ -224,6 +224,21 @@ $ pnpm -v
   - MEAN stack (MongoDB, Express, Angular, Node)
   - MEVN stack (MongoDB, Express, Vue, Node)
   - MESN stack (MongoDB, Express, Svelte, Node)
+
+### Best practices for Node.js + TypeScript projects using ES modules:
+1. Use explicit file extensions (.js) in all local imports.
+2. Keep environment variable loading (dotenv.config()) at the entry point only.
+3. Organize code by feature: e.g., src/routes, src/controllers, src/models, db.
+4. Use async/await for database and network operations.
+5. Handle errors gracefully (try/catch, error middleware).
+6. Validate environment variables and fail fast if missing.
+7. Keep configuration (e.g., port, DB URI) in environment variables.
+8. Write type-safe code and enable strict mode in TypeScript.
+9. Use linter and formatter (ESLint, Prettier) for code quality.
+10. Document your API and code (README, comments, JSDoc).
+11. Write tests for critical logic (Jest, Mocha, etc.).
+12. Use version control (Git) and meaningful commit messages.
+
 ## Software Developer
 Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
