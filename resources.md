@@ -5,6 +5,7 @@
   - [Fake](#fake)
   - [Tested](#tested)
   - [Unproved](#unproved)
+- [Architecture](#architecture)
 - [Authentication](#authentication)
 - [Authorization](#authorization)
 - [Backend](#backend)
@@ -196,6 +197,12 @@
 - https://www.randomlists.com/data/words.json
 - http://www.tvmaze.com/api
 - https://developer.themoviedb.org/
+
+[:top:](#resources)
+---
+### Architecture
+- https://www.softwareontheroad.com/ideal-nodejs-project-structure/
+- https://nx.dev/
 
 [:top:](#resources)
 ---
@@ -915,6 +922,7 @@
 ### Programming
 - https://en.wikipedia.org/wiki/Unix_philosophy
 - https://pseint.sourceforge.net/
+- https://refactoring.guru/
 - http://www.flowgorithm.org/
 
 [:top:](#resources)
