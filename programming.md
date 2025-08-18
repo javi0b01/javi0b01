@@ -272,6 +272,22 @@ languages and tools they use are secondary to this fundamental skill.
 - Well-designed and -constructed software is easy to maintain.
 - It is important to follow the standard naming convention and best practices.
 - Software maintenance is easier with easy-to-understand programs.
+* SDLC (Software Development Life Cycle)
+  1. Planning ...What do we want to build and why?
+  2. Requirement Analysis ...What should the software do? SRS (Software Requirements Specification)
+  3. Design ...How will the system look and work internally? DDS (Design/Detail Document Specification)
+  4. Implementation (Coding/Development) ...Let's build it!
+  5. Testing ...Does it work as expected?
+  6. Deployment ...Now the users can use it.
+  7. Maintenance ...Keep it running and improving.
+* SDLC Models
+  - Waterfall
+  - Agile
+  - Spiral
+  - V-Model
+
+SDLC is the structured process that ensures software is **high quality, cost-effective, and delivered on time**.
+
 ---
 #### Introduction to Programming and Computer Science
 - Introduction

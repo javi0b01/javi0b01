@@ -36,6 +36,17 @@
   - Fourth normal form or Boyce-Codd Normal Form (BCNF)
   - Fifth normal form
 - Data Modeling
+
+* ODM (Object-Document Mapping)
+  - Technique and/or tool
+  - For document-oriented databases
+  - Is a bridge between code objects and NoSQL (documents) databases
+
+* ORM (Object-Relational Mapping)
+  - Technique and/or tool
+  - For relational databases
+  - Is a bridge between code objects and SQL databases
+
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2023  
+Built by [javi](https://github.com/javi0b01/) :copyright: 2023 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

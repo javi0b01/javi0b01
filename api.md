@@ -9,9 +9,9 @@
 6. Code samples
 7. Documentation
 ### Resources
-* [REST APIs](https://www.ibm.com/cloud/learn/rest-apis)
-* [restfulapi.net](https://restfulapi.net/)
-* [JSON API](https://jsonapi.org/)
+- [REST APIs](https://www.ibm.com/cloud/learn/rest-apis)
+- [restfulapi.net](https://restfulapi.net/)
+- [JSON API](https://jsonapi.org/)
 ### Terms and concepts
 * API's
   - Open APIs
@@ -21,7 +21,7 @@
   - Composite APIs
   - Batch APIs
   - Inified APIs
-* API or Application Programing Interface
+- API or Application Programing Interface
 * REST or Representational State Transfer
   - Uniform Interface
   - Client-Server
@@ -29,13 +29,16 @@
   - Cacheable
   - Layered System
   - Code on demand
-* RESTFul
-* URL or Uniform Resource Locator
-* URI or Uniform Resource Identifiers
-* Endpoint
+- RESTFul
+- URL or Uniform Resource Locator
+- URI or Uniform Resource Identifiers
+- Endpoint
 * HTTP Verbs or HTTP Methods
-* HTTP Status code
-* HTTP Services
+  * Idempotency in HTTP methods
+    - Idempotent = safe to retry (same result) HEAD-OPTIONS-GET-PUT-DELETE
+    - Non-idempotent = every call changes state POST
+- HTTP Status code
+- HTTP Services
 * Request
   - Header
   - Body
@@ -44,12 +47,12 @@
   - Header
   - Body
   - Status code
-* Versioning
+- Versioning
 * Documentation
   - Swagger library
   - Swagger UI
-* API First Design
-* CORS
+- API First Design
+- CORS
 * Authentication
   - Identity
   - Json Web Token
