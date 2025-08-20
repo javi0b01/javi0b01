@@ -14,13 +14,13 @@
 ### Terms and concepts
 - Database
 - Database Modeling
-- SQL or Structured Query Language
-- CRUD or Create Read Update Delete
-- DDL or Data Definition Language
-- DML or Data Manipulation Language
-- DCL or Data Control Language
-- DBA or DataBase Administrator
-- ETL or Extracting Transforming Loading
+- SQL (Structured Query Language)
+- CRUD (Create Read Update Delete)
+- DDL (Data Definition Language)
+- DML (Data Manipulation Language)
+- DCL (Data Control Language)
+- DBA (DataBase Administrator)
+- ETL (Extracting Transforming Loading)
 - Syntax
 * Comments
   - Single line
@@ -54,6 +54,7 @@
   - Aliases
   - Views
 * Commands
+  - Execution order
   - Basic
   - Advanced
   - Scripts
@@ -78,6 +79,22 @@
   - Backup
   - Recovery
 - SQL Server Functions
+
+- Introduction to SQL and relational databases
+- Basic operations with SQL
+- Operators and advanced filter
+- Sorting and limiting of results
+- Aggregate functions and data grouping
+- Relationships between tables
+- Work with dates
+- Mathematical functions
+- Good practices and optimization
+
+#### Examples
+```
+CREATE DATABASE <name>
+```
+
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2023 - 2024  
+Built by [javi](https://github.com/javi0b01/) :copyright: 2023 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
