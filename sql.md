@@ -79,6 +79,7 @@
   - Backup
   - Recovery
 - SQL Server Functions
+- Lexicographical order
 
 - Introduction to SQL and relational databases
 - Basic operations with SQL
