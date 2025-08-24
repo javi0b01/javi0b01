@@ -104,6 +104,7 @@
 - [SEO](#seo)
 - [SSL VPN](#ssl-vpn)
 - [Submissions](#submissions)
+- [Terminal](#terminal)
 - [Timers](#timers)
 - [Tracking](#tracking)
 - [Tunnel](#tunnel)
@@ -979,6 +980,12 @@
 ---
 ### Submissions
 - https://formsubmit.co/
+
+[:top:](#resources)
+---
+### Terminal
+- https://mobaxterm.mobatek.net/
+- https://www.chiark.greenend.org.uk/~sgtatham/putty/
 
 [:top:](#resources)
 ---

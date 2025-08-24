@@ -13,7 +13,14 @@
 - [AWS CLI](https://aws.amazon.com/cli/)
 - [AWS MFA](https://aws.amazon.com/iam/features/mfa/)
 - [AWS Billing Alarm](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html)
+- [Amazon Lightsail](https://aws.amazon.com/lightsail/)
 ### Terms and concepts
+* Computing
+  - On-site
+  - IaaS
+  - PaaS
+  - SaaS
+
 - Cloud
 - AWS CLI
 - Regions
