@@ -79,7 +79,10 @@
   - Backup
   - Recovery
 - SQL Server Functions
+
+- Execution order
 - Lexicographical order
+- Function order
 
 - Introduction to SQL and relational databases
 - Basic operations with SQL
@@ -90,11 +93,6 @@
 - Work with dates
 - Mathematical functions
 - Good practices and optimization
-
-#### Examples
-```
-CREATE DATABASE <name>
-```
 
 ## Software Developer
 Built by [javi](https://github.com/javi0b01/) :copyright: 2023 - 2025  
