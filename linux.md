@@ -49,6 +49,10 @@
 - Working with directories
 - Working with files
 - Working with file content
+
+- sudo (super user do)
+- apt (Advenaced Package Tool)
+- Snap package manager
 ### Basic commands
 #### Working with directories, files and file content
 ```
@@ -109,6 +113,10 @@ $ sudo apt autoremove
 $ sudo apt search <package name>
 $ sudo apt install <package name>
 $ sudo apt remove <package name>
+```
+Snap
+```
+$ snap --version
 ```
 #### Text editors
 ```
