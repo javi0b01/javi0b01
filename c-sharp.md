@@ -33,8 +33,13 @@
 - print to console
 - keywords
 * comments
-  - inline
+  - single-line
   - multi-line
+
+* Naming Conventions
+  - PascalCase: Use for class names, method names, and properties
+  - camelCase: Use for local variables, method parameters, and private fields (with _ prefix for private fields)
+  - ALL_CAPS: Use for constants
 
 - Strongly-typed
 * Data types
@@ -58,7 +63,22 @@
   * Strings
     - string
 
-- variables
+* Variables
+  - Explicit
+  - Implicit
+- Constants
+- Scope
+
+* Strings
+  - Concatenation
+  - Interpolation
+
+* Casting
+  - Implicit
+  - Explicit
+
+* Operators
+  - Concatenation
 ### Install
 ```
 $ sudo apt update
