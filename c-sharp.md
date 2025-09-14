@@ -74,11 +74,23 @@
   - Interpolation
 
 * Casting
-  - Implicit
-  - Explicit
+  - Implicit (automatically)
+  - Explicit (manually)
+  - type conversion methods
 
 * Operators
+  * Assignment
+    - Bitwise
+    - Shift
   - Concatenation
+  - Arithmetic
+  - Comparison
+  - Logical
+
+* Built-in Methods
+  - Input
+  - Output
+  - Type Conversion
 ### Install
 ```
 $ sudo apt update
