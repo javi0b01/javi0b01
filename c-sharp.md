@@ -91,6 +91,12 @@
   - Input
   - Output
   - Type Conversion
+
+* Control Flow
+  - Conditionals
+  - Loops
+  - Break/Continue
+  - Nested
 ### Install
 ```
 $ sudo apt update
@@ -103,9 +109,9 @@ C# application
 ```
 $ mkdir HelloWorld
 $ cd HelloWorld
+$ dotnet new gitignore
 $ dotnet new console
 $ dotnet run
-$ dotnet new gitignore
 ```
 ## Software Developer
 Built by [javi](https://github.com/javi0b01/) :copyright: 2025  
