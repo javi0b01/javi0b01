@@ -880,7 +880,6 @@
 - https://pandao.github.io/editor.md/en.html
 - https://github.com/pujux/badge-it
 - https://stackedit.io/
-- https://stackedit.io/
 
 [:top:](#resources)
 ---
