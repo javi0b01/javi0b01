@@ -868,18 +868,18 @@
 [:top:](#resources)
 ---
 ### Markdown
-- https://daringfireball.net/projects/markdown/
-- https://www.markdownguide.org/cheat-sheet/
-- https://gist.github.com/rxaviers/7360908
-- https://joedicastro.com/pages/markdown.html
-- https://pandao.github.io/editor.md/en.html
-- http://showdownjs.com/
 - https://arturssmirnovs.github.io/github-profile-readme-generator/
+- https://daringfireball.net/projects/markdown/
+- https://joedicastro.com/pages/markdown.html
+- https://gist.github.com/rxaviers/7360908
 - https://github.com/Ileriayo/markdown-badges
-- https://shields.io/
-- https://pandao.github.io/editor.md/en.html
+- https://github.com/inttter/md-badges
 - https://github.com/pujux/badge-it
+- https://pandao.github.io/editor.md/en.html
+- https://shields.io/
+- http://showdownjs.com/
 - https://stackedit.io/
+- https://www.markdownguide.org/cheat-sheet/
 
 [:top:](#resources)
 ---
