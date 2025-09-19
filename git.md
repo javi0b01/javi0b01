@@ -251,7 +251,7 @@ $ git remote add origin <REMOTE_URL>
 $ git branch -M main
 $ git push -u origin main
 ```
-Adding a local repository to VCH
+Adding a local repository to Git
 ```
 $ git init -b main
 $ echo '# repo-name' > README.md
@@ -259,6 +259,13 @@ $ git add . && git commit -m "initial commit"
 $ git remote add origin <REMOTE_URL>
 $ git remote -v
 $ git push origin main
+```
+Switch to a remote Git branch that isn't local
+```
+$ git branch -r
+$ git fetch
+$ git checkout <branch name>
+$ git status
 ```
 More
 ```
