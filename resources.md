@@ -505,6 +505,7 @@
 ---
 ### Design
 - https://designstripe.com/
+- https://www.eraser.io/
 - https://sapiens.ui8.net/
 - https://whydoweinterface.com/
 - https://www.checklist.design/
@@ -616,6 +617,7 @@
 #### Videos
 - https://coverr.co/
 #### Whiteboard
+- https://excalidraw.com/
 - https://lucidspark.com/
 - https://miro.com/
 - https://www.figma.com/
