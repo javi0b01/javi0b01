@@ -118,6 +118,30 @@ Snap
 ```
 $ snap --version
 ```
+Unattended Upgrades
+```
+$ sudo apt install unattended-upgrades
+$ sudo dpkg-reconfigure --priority=low unattended-upgrades
+```
+update_system.sh script file
+```
+#!/bin/bash
+# This script automates the system update, upgrade, and cleanup process.
+
+echo "Starting system update..."
+sudo apt update -y
+
+echo "Listing upgradeable packages..."
+sudo apt list --upgradeable -a
+
+echo "Applying upgrades..."
+sudo apt upgrade -y
+
+echo "Removing unnecessary packages..."
+sudo apt autoremove -y
+
+echo "System update routine finished."
+```
 #### Text editors
 ```
 $ vi <file name>
