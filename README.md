@@ -12,7 +12,8 @@
 [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)](#)
 ##### I'm currently learning
-[![Nest](https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white)](#)
+[![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)](#)
+<!-- [![Nest](https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white)](#) -->
 ###### I have collaborated in projects using different technologies
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](#)
 
@@ -35,7 +36,7 @@
 [![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](#)
 
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
-[![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)](#)
+<!-- [![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)](#) -->
 [![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)](#)
 
 [![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](#)
@@ -104,7 +105,7 @@ JUST FOR FUN projects ― I have done them to practice and review what I have le
 :lock: Development ― Private projects (Private repositories)
 - - -
 ###### :memo: Notes
-:bookmark: [algorithmics](algorithmics.md) | [angular](angular.md) | [api](api.md) | [astro](astro.md) | [aws](aws.md) | [bootstrap](bootstrap.md) | [c](c.md) | [c#](c-sharp.md) | [css](css.md) | [django](django.md) | [django rest framework](django_rest_framework.md) | [docker](docker.md) | [email template](email_template.md) | [employment](employment.md) | [english](english.md) | [expressjs](expressjs.md) | [fastapi](fastapi.md) | [figma](figma.md) | [full stack](full-stack.md) | [git](git.md) | [html](html.md) | [interview](interview.md) | [java](java.md) | [javascript](javascript.md) | [json](json.md) | [layout](layout.md) | [linux](linux.md) | [markdown](markdown.md) | [mongodb](mongodb.md) | [mysql](mysql.md) | [nestjs](nestjs.md) | [nodejs](nodejs.md) | [php](php.md) | [postgresql](postgresql.md) | [practice](practice.md) | [programming](programming.md) | [python](python.md) | [react](react.md) | [resources](resources.md) | [road map](road_map.md) | [seo](seo.md) | [sergey](sergey.md) | [setups](setups.md) | [spring](spring.md) | [sql](sql.md) | [ssh](ssh.md) | [svelte](svelte.md) | [typescript](typescript.md) | [versioning](versioning.md) | [vuejs](vuejs.md) | [webpack](webpack.md) | [zdocs](zdocs.md)
+:bookmark: [algorithmics](algorithmics.md) | [angular](angular.md) | [api](api.md) | [astro](astro.md) | [aws](aws.md) | [bootstrap](bootstrap.md) | [c](c.md) | [c#](c-sharp.md) | [css](css.md) | [cursor](cursor.md) | [django](django.md) | [django rest framework](django_rest_framework.md) | [docker](docker.md) | [email template](email_template.md) | [employment](employment.md) | [english](english.md) | [expressjs](expressjs.md) | [fastapi](fastapi.md) | [figma](figma.md) | [full stack](full-stack.md) | [git](git.md) | [html](html.md) | [interview](interview.md) | [java](java.md) | [javascript](javascript.md) | [json](json.md) | [layout](layout.md) | [linux](linux.md) | [markdown](markdown.md) | [mongodb](mongodb.md) | [mysql](mysql.md) | [nestjs](nestjs.md) | [nodejs](nodejs.md) | [php](php.md) | [postgresql](postgresql.md) | [practice](practice.md) | [programming](programming.md) | [python](python.md) | [react](react.md) | [resources](resources.md) | [road map](road_map.md) | [seo](seo.md) | [sergey](sergey.md) | [setups](setups.md) | [spring](spring.md) | [sql](sql.md) | [ssh](ssh.md) | [svelte](svelte.md) | [typescript](typescript.md) | [versioning](versioning.md) | [vuejs](vuejs.md) | [webpack](webpack.md) | [zdocs](zdocs.md)
 - - -
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).  
-:copyright: Sep, 2019 ~ 2025
+:copyright: Sep, 2019 ~ 2026
