@@ -19,6 +19,18 @@
   - [npm](https://www.npmjs.com/)
   - [pnpm](https://pnpm.io/)
 ### Node
+Install
+```
+$ sudo snap install node --classic
+```
+```
+$ sudo apt update
+$ sudo apt install nodejs
+$ sudo apt install npm
+```
+```
+$ npm install -g npm@latest
+```
 Verify
 ```
 $ node -v
@@ -39,11 +51,31 @@ Uninstall package
 $ npm uninstall -g <name>
 $ npm uninstall <name>
 ```
+Clean Reinstall
+```
+$ rm -Rf node_modules package-lock.json
+$ npm install
+```
+Clear Proxy Settings
+```
+$ npm config delete proxy
+$ npm config delete https-proxy
+```
+Set the Registry Manually
+```
+$ npm config set registry https://registry.npmjs.org/
+```
+Increase the Timeout Limit
+```
+$ npm config set fetch-retry-maxtimeout 600000
+$ npm config set fetch-retries 5
+```
 Clear chache
 ```
 $ npm cache verify
 $ npm cache clean --force
 ```
+If that fails, manually delete the folder mentioned in your error
 ### NVM
 Install
 ```
@@ -240,5 +272,5 @@ $ pnpm -v
 12. Use version control (Git) and meaningful commit messages.
 
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2025  
+Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
