@@ -81,17 +81,20 @@ $ python -m django --version
 #### Create a Django project in virtual environment
 Create virtual environment
 ```
-$ python -m venv <virtual_environment_name>
+$ python -m venv <name>
 ```
 Activate virtual environment
 ```
-$ source <virtual_environment_name>/bin/activate
+$ source <name>/bin/activate
 ```
 Deactivate virtual environment
 ```
 $ deactivate
 ```
 Install Django
+```
+$ pip install django
+```
 ```
 $ python -m pip install Django
 ```
@@ -176,6 +179,33 @@ Run bash
 ```
 $ docker exec -it <container> bash
 ```
+#### New Packages
+From project root, with venv activated
+##### pyproject file
+Generate/update pyproject.toml in project root
+```
+$ python scripts/generate_pyproject.py
+```
+Custom name and version
+```
+$ python scripts/generate_pyproject.py --name o_p-web-app --version 0.1.0
+```
+Preview without writing
+```
+$ python scripts/generate_pyproject.py --dry-run
+```
+
+```
+$ pip install -e .
+```
+##### requirements file
+```
+$ pip freeze > requirements.txt
+```
+
+```
+$ pip install -r requirements.txt
+```
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2023  
+Built by [javi](https://github.com/javi0b01/) :copyright: 2023 - 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

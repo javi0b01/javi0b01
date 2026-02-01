@@ -395,7 +395,28 @@ gh repo clone <REMOTE_URL>
 - chore: general maintenance tasks
 - build: update build configuration
 - release: prepare for version release
+---
+- init: initial project setup
+- feat: add new feature
+- fix: minor bug fix
+- refactor: improve code structure
+- style: format code
+- docs: update documentation
+- test: add or update tests
+- chore: general cleanup
+- build: update build configuration
+- release: prepare for version release
+- update: general update
+- wip: work in progress
+- temp: temporary changes
+- debug: add debug logs
+- remove: delete unused code
+- ci: update CI config
+- deps: update dependencies
+- cleanup: remove unused files
+- optimize: improve performance
+- config: update configuration
 
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2025  
+Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

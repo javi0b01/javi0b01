@@ -12,6 +12,12 @@
 - [Cursor](https://cursor.com)
 - [Documentation](https://cursor.com/docs)
 ### Terms and concepts
+- Chat
+- Agent
+* Rule
+  - Structure
+  - YAML
+  - Markdown
 ### Roadmap
 Cursor Learning Roadmap  
 A simple, sequential guide for learning to use an AI code editor like Cursor, from basic to complex.
