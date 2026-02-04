@@ -86,7 +86,8 @@ $ docker exec <parameter (optional)> <container> <command>
 $ docker ps <parameter (optional)>
 $ docker stop <container>
 $ docker start <container>
-$ docker rm <parameter (optional)> <container>
+$ docker rm <container_name_or_id>
+$ docker rm <parameter (optional)> <container_name_or_id>
 $ docker logs <container id or container name>
 ```
 Create own container
@@ -316,7 +317,7 @@ $ docker run -d -v <path> -p 3000:3000 <name>
 ```
 Stop image
 ```
-$ docker stop <id>
+$ docker stop <container_name_or_id>
 $ docker stop $(docker ps -q)
 $ docker kill $(docker ps -q)
 ```
@@ -324,6 +325,26 @@ Re-Build image
 ```
 $ docker build  -t <repo_name>:<version> .
 ```
+###### Example
+PostgreSQL
+
+```
+$ docker --version
+$ docker info
+$ docker run -d \
+    --name project_name_postgres \
+    -e POSTGRES_DB=project_name \
+    -e POSTGRES_USER=postgres \
+    -e POSTGRES_PASSWORD=postgres \
+    -p 5432:5432 \
+    -v op_postgres_data:/var/lib/postgresql/data \
+    postgres:16
+$ docker ps
+$ docker exec -it project_name_postgres psql -U postgres -d project_name
+$ project_name=#
+  SELECT version();
+  \q
+```
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2025  
+Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

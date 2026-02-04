@@ -47,6 +47,13 @@ postgres=# alter user postgres with password 'postgres';
 ALTER ROLE
 postgres=# 
 ```
+Basics
+```
+$ sudo lsof -i :5432
+$ sudo ss -tlnp | grep 5432
+$ sudo systemctl stop postgresql
+$ sudo systemctl disable postgresql
+```
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2024  
+Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

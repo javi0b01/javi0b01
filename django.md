@@ -26,7 +26,7 @@
   - Column
   - Key
   - Relationship
-- ORM or Object-Relational Mapper
+- ORM (Object-Relational Mapper) (Object-Relational Mapping)
 - Python
 - Python package
 - Python web framework
