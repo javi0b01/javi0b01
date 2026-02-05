@@ -66,6 +66,24 @@
 - Tests
 - Styles
 - Debug Toolbar
+
+#### Django Site Administration
+* Authentication and Authorization
+  - Groups
+  - Users
+
+* The Three Key Models
+  - User
+  - Permission
+  - Group
+
+- Create Groups
+- Assign Users to a Group
+- Specific Permission
+
+is_staff
+
+Pro tip: Check for permissions, not group names
 ### Setup
 Verifying  
 To verify that Django can be seen by Python, type python from your shell. Then at the Python prompt, try to import Django:
