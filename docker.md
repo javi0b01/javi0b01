@@ -345,6 +345,23 @@ $ project_name=#
   SELECT version();
   \q
 ```
+
+Start the existing container
+```
+$ docker ps -a --filter "name=project_name_postgres"
+$ docker start project_name_postgres
+```
+
+Remove the old container and create a new one
+```
+$ docker rm -f project_name_postgres
+$ docker run -d --name project_name_postgres \
+  -e POSTGRES_DB=project_name \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=postgres \
+  -p 5432:5432 \
+  postgres:16
+```
 ## Software Developer
 Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
