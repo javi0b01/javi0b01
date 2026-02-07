@@ -21,6 +21,38 @@
 ### Requirements
 - [Python](https://www.python.org/)
 ### Terms and concepts
+* Django Architecture MVT (Model-View-Template)
+  - Model: the data layer
+  - View: the logic layer
+  - Template: the presentation layer
+
+* Flow
+  - URL
+  - View
+  - Model
+  - Template
+
+* Model Layer
+  - To structure and interact with applicaton's data.
+  - The blueprint for data.
+  - It is the single, definitive source of truth for information.
+
+* View Layer
+  - Is the "business logic" of application.
+  - It's the thinker and the decision-maker.
+  - It's the middleman that connects the Models and the Template.
+
+* Template Layer
+  - HTML that defines the structure and content of a page.
+  - It's responsible for presentation.
+  - It separates the look of the page from the Python logic.
+
+- Template Engine combine the templates with the data to generate a final HTML page.
+
+* Forms
+
+---
+
 * Database
   - Table
   - Column
