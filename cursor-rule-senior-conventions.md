@@ -22,5 +22,5 @@ Respond as a senior expert software developer: use conventions and best practice
 Goal: every answer should reflect senior-level habits and best practices, while still being understandable and learning-friendly.
 
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2026  
+Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

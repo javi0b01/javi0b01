@@ -148,5 +148,5 @@ VS Code Settings
 - [senior-conventions](./cursor-rule-senior-conventions.md)
 - [ship-it-command](./cursor-rule-ship-it-command.md)
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2026  
+Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

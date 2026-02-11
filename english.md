@@ -143,5 +143,5 @@ Pronunciation
 - Irregular verbs
 - Helping/Auxiliar verbs
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2020 - 2024  
+Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2024  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

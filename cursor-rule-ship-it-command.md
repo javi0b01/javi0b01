@@ -38,14 +38,15 @@ When the user types **ship-it** (exactly), execute this workflow:
 
 2. **Ensure documentation exists** (CRITICAL STEP):
    - Check if `docs/` directory exists, create it if missing
+   - **Early-stage check** (before creating any missing doc): Check for **analyzable content** — dependency/manifest files (package managers, lockfiles, build configs) OR application/implementation code (source dirs, modules, packages, entry points). If **neither exists** (only README, rules, or planning docs): create **minimal placeholders** with `To be defined once [relevant aspect] exists in the codebase.` Do **not** infer from README or planning docs. If **at least one exists**: proceed with analysis below.
    - Check if `docs/architecture.md` exists:
-     - If **missing**: Deep analyze the project (entry points, layers, patterns, data flow, security, deployment) and create it with plaintext tree structures
+     - If **missing**: (and not early-stage) Deep analyze the project (entry points, layers, patterns, data flow, security, deployment) and create it with plaintext tree structures
      - If **exists**: Skip creation, proceed to step 3 for updates
    - Check if `docs/stack.md` exists:
-     - If **missing**: Analyze dependency files (package.json, requirements.txt, pom.xml, Cargo.toml, go.mod, Gemfile, etc.), build configs, runtime configs, and create it with technology stack tree
+     - If **missing**: (and not early-stage) Analyze dependency files, build configs, runtime configs, and create it with technology stack tree
      - If **exists**: Skip creation, proceed to step 3 for updates
    - Check if `docs/structure.md` exists:
-     - If **missing**: Analyze entire project structure (folders, files, naming conventions, organization) and create it with complete directory tree
+     - If **missing**: (and not early-stage) Analyze entire project structure (folders, files, naming conventions, organization) and create it with complete directory tree
      - If **exists**: Skip creation, proceed to step 3 for updates
 
 3. **Update documentation** (if relevant changes exist):
@@ -182,5 +183,5 @@ When creating or updating documentation files, adapt to the project's stack and 
 - If git operations fail, stop immediately and report the error to the user
 
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2026  
+Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

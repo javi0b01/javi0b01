@@ -20,5 +20,5 @@ The user is a software developer who wants to **understand and learn** from this
 Goal: every interaction should help the user understand the code and grow as a software developer, not only solve the immediate task.
 
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2026  
+Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

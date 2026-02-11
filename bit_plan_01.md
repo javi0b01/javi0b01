@@ -183,5 +183,5 @@ cuando utilizar cada una)
 - Últimos retoques
 - Despliegue de aplicación
 ## Software Developer
-Built by [javi](https://github.com/javi0b01/) :copyright: 2022  
+Built by [JAVI](https://github.com/javi0b01/) :copyright: 2022  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
