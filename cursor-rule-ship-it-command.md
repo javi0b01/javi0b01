@@ -88,9 +88,9 @@ When the user types **ship-it** (exactly), execute this workflow:
    - If no staged changes, skip to step 6 (this should not happen if step 4 logic was followed correctly)
    - Commit remaining files with appropriate conventional commit message
 
-**Error Handling**: If any git command fails (status, add, commit), stop the workflow and inform the user with the error message. Do not proceed with subsequent steps.
+6. **Error Handling**: If any git command fails (status, add, commit), stop the workflow and inform the user with the error message. Do not proceed with subsequent steps.
 
-6. **Show summary**: List files changed, commit hash(es), brief explanation
+7. **Show summary**: List files changed, commit hash(es), brief explanation
 
 ## Commit Message Rules
 
@@ -123,25 +123,25 @@ For all other changes (when README is not involved):
 
 After completing, show:
 
-```
 ## Summary: [Brief description]
 
 **Commit**: [hash] [message]
 
 ### Files Changed
+
 | File | Change |
-|------|--------|
-| ... | ... |
+| ---- | ------ |
+| .... | ...... |
 
 ### What Was Done
+
 [1-3 sentence explanation of the changes]
-```
 
 ## Documentation Analysis Guidelines
 
 When creating or updating documentation files, adapt to the project's stack and structure:
 
-### For `docs/architecture.md`:
+### For `docs/architecture.md`
 
 - **Analyze**: Entry points, application structure, layers/components, routing/handlers, middleware/interceptors, services/business logic, data access layer, external integrations
 - **Document**: System architecture, layers/components, data flow, authentication/authorization flow, background jobs/scheduled tasks, external integrations, security architecture, deployment architecture
@@ -152,7 +152,7 @@ When creating or updating documentation files, adapt to the project's stack and 
   - Mobile: App architecture, navigation, state management
   - Desktop: Application structure, UI frameworks
 
-### For `docs/stack.md`:
+### For `docs/stack.md`
 
 - **Analyze**:
   - Dependency files: `package.json` (Node.js), `requirements.txt`/`pyproject.toml` (Python), `pom.xml`/`build.gradle` (Java), `Cargo.toml` (Rust), `go.mod` (Go), `Gemfile` (Ruby), `composer.json` (PHP), etc.
@@ -163,7 +163,7 @@ When creating or updating documentation files, adapt to the project's stack and 
 - **Document**: Runtime environment, programming language, frameworks/libraries, databases, tools, build systems, deployment tools, versions
 - **Use**: Plaintext tree structures showing technology hierarchy
 
-### For `docs/structure.md`:
+### For `docs/structure.md`
 
 - **Analyze**: Entire project directory structure, file naming patterns, layer organization, module/package structure
 - **Document**: Complete directory tree, file purposes, naming conventions, domain entities/modules, import/include patterns, build output structure
