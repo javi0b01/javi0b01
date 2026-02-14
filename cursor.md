@@ -139,6 +139,7 @@ VS Code Settings
 }
 ```
 ### Rules
+Agnostic
 - [Agent](./cursor-rule-agent.md)
 - [commit-conventions](./cursor-rule-commit-conventions.md)
 - [git-workflow](./cursor-rule-git-workflow.md)
@@ -147,6 +148,31 @@ VS Code Settings
 - [permissions](./cursor-rule-permissions.md)
 - [senior-conventions](./cursor-rule-senior-conventions.md)
 - [ship-it-command](./cursor-rule-ship-it-command.md)
+Specific
+```
+Create a new Cursor rule named "project-overview" in `.cursor/rules/`.
+
+This rule must be **project-specific** (not architecture-agnostic or stack-agnostic).
+Other rules in the project may stay generic; this one should reflect THIS project's:
+
+- Main programming language
+- Technology stack (frameworks, DB, tools)
+- Structure and file placement conventions
+- Naming conventions
+- Any domain-specific patterns (e.g. response formats, API conventions)
+
+**Requirements:**
+1. Analyze in depth the project (entry point, config, structure, docs, existing rules) to infer conventions
+2. Point to existing docs as source of truth for structure/stack — avoid duplicating them
+3. Include only what's NOT in docs (e.g. response shapes, formatting, schema options)
+4. Add any language/locale rules (e.g. "UI text in HTML templates must be in Spanish") if applicable
+5. All other content in English: Comments, documentation, code (variable names, strings in TS/SCSS), and any non-UI text must always be in English.
+6. Keep the rule lean (< 30 lines). One concern per bullet
+7. Do NOT touch other files — only create the new rule
+8. Avoid redundancy
+
+Output a concise rule that an AI can follow to stay consistent with this project's standards.
+```
 ## Software Developer
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
