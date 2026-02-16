@@ -50,6 +50,7 @@ When the user types **ship-it** (exactly), execute this workflow:
      - If **exists**: Skip creation, proceed to step 3 for updates
 
 3. **Update documentation** (if relevant changes exist):
+   - Avoid redundancy
    - `README.md` — Update if stack, scripts, setup changed, OR if new docs files added (link them in Documentation section)
    - `docs/architecture.md` — Update if (only if file exists from step 2):
      - New files added/removed in core application directories (services, components, controllers, handlers, business logic layers, etc.)
