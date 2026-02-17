@@ -31,7 +31,23 @@ They overbuild.
 Your job:  
 Cut features aggressively.
 
+Responsibilities:
+- Define WHO this is for (small garages? chains? Colombia only?)
+- Define MVP (minimum features to sell)
+- Cut unnecessary features
+- Define pricing logic
+- Decide roadmap
+
+Study:
+- MVP thinking
+- Feature prioritization
+- Customer interviews
+
+Rule: If feature does not help sell version 1 → remove it.
+
 #### Software Architect
+Architecture is about making the right decisions early so you don’t suffer later.
+
 An architect decides:  
 - Monolith or microservices?
 - Multi-tenant strategy?
@@ -54,10 +70,33 @@ For you to study:
 You don’t need to become enterprise architect.  
 You need to become a pragmatic SaaS architect.
 
+You must define:
+- Multi-tenancy strategy
+- Tenant + Branch model
+- Role model (Owner, Manager, Mechanic)
+- Modular monolith structure
+- Security boundaries
+
+Study:
+- Modular monolith pattern
+- Domain modeling
+- RBAC (role-based access control)
+- SaaS architecture patterns
+
 #### Backend Developer
 This is where you're already strong.  
 But now coding is not just about features.  
 It’s about supporting architecture and product vision.
+
+Focus on:
+- Clean models
+- Service layer (business logic outside views)
+- Proper validation
+- Transactions for financial operations
+- Migrations discipline
+
+Your backend must be boring and predictable.  
+That’s good.
 
 #### Frontend Developer (even with htmx)
 This is where you're already strong.  
@@ -80,6 +119,17 @@ You must know:
 
 A SaaS without good deployment is a hobby project.
 
+Study:
+- VPS setup
+- Linux basics
+- Nginx + Gunicorn
+- PostgreSQL backups
+- SSL
+- Logging
+- Basic monitoring
+
+Without this → it’s just a school project.
+
 #### Database Designer
 Very important for garage SaaS.
 
@@ -93,6 +143,15 @@ You must understand:
 
 Since you’re using PostgreSQL → this is a strength.  
 Garage system is relational-heavy → DB design matters more than frontend.
+
+Study:
+- Normalization
+- Indexing
+- Query performance
+- Data integrity constraints
+- Soft delete vs hard delete
+
+Data mistakes are expensive to fix later.
 
 #### Security Engineer
 Especially because you are building multi-tenant SaaS.
@@ -153,6 +212,108 @@ Who is your first customer?
 If nobody uses it, architecture doesn’t matter.
 
 #### Customer Support
+
+---
+
+### Learning Path
+You don’t need to master everything at once.  
+Phase your growth.
+
+#### PHASE 1 — Architecture + Domain Modeling
+Study:
+- Modular Monolith
+- Multi-tenant patterns
+- RBAC
+- SaaS fundamentals
+
+Goal: Design clean foundation.
+
+#### PHASE 2 — Production Readiness
+Study:
+- Deployment
+- Logging
+- Backups
+- Monitoring
+- Error tracking
+
+Goal: Make it real, not tutorial-level.
+
+#### PHASE 3 — Business Thinking
+Study:
+- Lean Startup
+- MVP thinking
+- Pricing strategy
+- Customer interviews
+
+Now you are founder.
+
+Important Mental Shift
+
+You are not building a Django project.  
+You are building a business system that must survive years.
+
+That requires architecture thinking.  
+You must think like an engineer and like a founder — at the same time.
+
+---
+
+### Roadmap
+Don’t try to learn everything at once.
+
+#### Phase 1 — Architecture Blueprint
+Before coding:
+- Define Tenant model
+- Define Branch model
+- Define Role model
+- Define core entities
+- Draw relationships
+- Decide subdomain or not
+- Define pricing idea
+
+No coding yet.
+
+#### Phase 2 — Build Core Domain
+Implement:
+- Auth
+- Tenant isolation
+- Branch isolation
+- Customer
+- Vehicle
+- WorkOrder
+- Invoice
+
+No inventory yet.  
+No advanced reports yet.  
+No analytics yet.
+
+#### Phase 3 — Make It Deployable
+- Deploy to VPS
+- Setup domain
+- Setup SSL
+- Setup backups
+- Add logging
+
+Now it becomes real.
+
+#### Phase 4 — Talk To Real Garages
+This is where 90% fail.
+
+You must:
+- Show demo
+- Ask what they hate about current system
+- Ask what Excel sheets they use
+- Observe how they work
+
+Then improve.
+
+##### Very Important Mindset
+Do NOT build like: “What features can I add?”  
+Build like: “What is the minimum system that a garage would pay $25/month for?”
+
+That question will guide architecture.
+
+Build real.  
+Refactor later.
 
 ## Software Developer
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  

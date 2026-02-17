@@ -100,6 +100,8 @@
 - Debug Toolbar
 
 #### Django Site Administration
+Custom User model (ALWAYS start with this in Django)
+
 * Authentication and Authorization
   - Groups
   - Users
