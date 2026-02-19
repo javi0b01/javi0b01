@@ -145,12 +145,15 @@ $ deactivate
 ```
 Install Django
 ```
-$ pip install django
+(.venv)$ pip install Django
 ```
 ```
 $ python -m pip install Django
 ```
 Verifying
+```
+$ django-admin --version
+```
 ```
 $ python3 -m django --version
 ```
@@ -163,6 +166,14 @@ Interactive Python shell
 $ python manage.py shell
 ```
 Creating an application
+
+project-specific
+```
+$ mkdir apps
+$ touch apps/__init__.py
+$ python manage.py startapp <name> apps/<name>
+```
+global tool
 ```
 $ django-admin startapp <name>
 ```
@@ -170,13 +181,13 @@ Sync database
 ```
 $ python manage.py migrate
 ```
-Create super user
-```
-$ python manage.py createsuperuser
-```
 Run server
 ```
 $ python manage.py runserver
+```
+Create super user
+```
+$ python manage.py createsuperuser
 ```
 #### Create a Django project in Docker
 docker-compose.yml file
