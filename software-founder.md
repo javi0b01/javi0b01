@@ -3,6 +3,10 @@
 
 SaaS (Software as a Service)
 
+### Terms and concepts
+- CRUX (Core Challenge | Critical Problem)
+- SDLC (Software Development Life Cycle)
+
 ### Roles
 1. Product Manager
 2. Software Architect

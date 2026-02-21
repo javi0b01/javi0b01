@@ -29,9 +29,33 @@ Index
 - [Design Patterns](#design-patterns)
 - [UI Design Methodology](#ui-design-methodology)
 - [Cloud](#cloud)
-#### crux
+
+***SDLC*** (Software Development Life Cycle)  
+SDLC is the structured process that ensures software is high quality, cost-effective, and delivered on time.  
+* SDLC
+  - Planning
+  - Requirement Analysis
+  - Design
+  - Implementation (Coding/Development)
+  - Testing
+  - Deployment
+  - Maintenance
+* Popular SDLC Models
+  - Waterfall → Linear, step-by-step (finish one phase before the next).
+  - Agile → Iterative, flexible, with small sprints and continuous feedback.
+  - Spiral → Risk-driven, combines prototyping and iterative improvements.
+  - V-Model → Focus on testing at each stage.
+
+* SRS (Software Requirements Specification)
+  - What the system should do.
+
+* DDS (Design Document Specification) sometimes also called (Detailed Design Specification)
+  - How the system will do it (design details)
+
+***CRUX*** (Core Challenge | Critical Problem)  
 Crux refers to the core challenge or critical problem  
 Identifying the crux helps developers focus on solving the most impactful issues early in the development process.
+
 #### Problem Solving
 Problem solving is the core thing software developers do.  The programming 
 languages and tools they use are secondary to this fundamental skill.

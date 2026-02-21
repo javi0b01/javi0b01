@@ -90,6 +90,7 @@ $ docker rm <container_name_or_id>
 $ docker rm <parameter (optional)> <container_name_or_id>
 $ docker logs <container id or container name>
 ```
+
 Create own container
 ```
 $ docker pull <image base>
@@ -127,39 +128,48 @@ Basic
 $ docker -v
 $ docker logs
 ```
+
 Get docker container including size:
 ```
 $ docker ps -s
 ```
+
 Get docker container disk utilization:
 ```
 $ docker system df
 ```
+
 Stop all running containers
 ```
 $ docker stop $(docker ps -aq)
 ```
+
 Delete all containers
 ```
 $ docker rm $(docker ps -aq)
 ```
+
 Delete all containers including its volumes use
 ```
 $ docker rm -vf $(docker ps -aq)
 ```
+
 Delete all the images
 ```
 $ docker rmi -f $(docker images -aq)
 ```
+
 Delete everything - Remove all unused containers, volumes, networks and images
 ```
 $ docker system prune -a --volumes
 ```
+
 Reset docker
 ```
 $ docker stop $(docker ps -aq)
 $ docker system prune --all --force
 ```
+
 Disable docker container autostart
 ```
 $ docker inspect <container>
@@ -170,6 +180,7 @@ Basic Setup
 ```
 $ vi Dockerfile
 ```
+
 Dockerfile
 ```
 FROM <image base>
@@ -180,19 +191,23 @@ RUN <command>
 EXPOSE <port>
 CMD <default_command>
 ```
+
 .dockerignore
 ```
 <directories and/or name files>
 ```
+
 Create image
 ```
 $ docker build -t <image name> .
 ```
+
 Run docker container
 ```
 $ docker run <image name>
 $ docker run -p 4201:4200 <image name>
 ```
+
 #### Docker compose
 Basic Setup
 ```
@@ -327,6 +342,80 @@ $ docker build  -t <repo_name>:<version> .
 ```
 ###### Example
 PostgreSQL
+
+Core Steps
+1. Started a PostgreSQL container using a persistent volume.
+2. Connected to the database server inside the container.
+3. Created your own, new database.
+
+Command to download the postgres image and start a container (a running instance of that image) with the correct settings for saving your data.
+```
+$ docker run --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -v pgdata:/var/lib/postgresql -d -p 5432:5432 postgres
+```
+Connect to the container's `psql` shell (go inside):
+```
+$ docker exec -it my-postgres psql -U postgres
+```
+
+Inside the `psql` shell, create new database:
+```
+postgres=# CREATE DATABASE my_new_db;
+```
+
+List all the databases to prove they exist:
+```
+postgres=# \l
+```
+
+Exit the `psql` shell:
+```
+postgres=# \q
+```
+
+Test connection string (do not docker exec into the container). Just use your normal local terminal.
+```
+$ psql postgresql://postgres:mysecretpassword@localhost:5432/my_new_db
+```
+
+Exit the `my_new_db` shell:
+```
+my_new_db=# \q
+```
+
+Stop the container:
+```
+$ docker stop my-postgres
+```
+
+Start the container:
+```
+$ docker start my-postgres
+```
+
+You don't need to use the long docker run command again. Just start, and everything will be exactly as you left it.  
+the correct workflow:
+1. docker run once to create your container.
+2. Use docker stop and docker start from then on to manage it.
+
+---
+
+```
+$ docker images
+$ docker ps -a
+```
+
+Stop and remove the old container:
+```
+$ docker stop my-postgres
+$ docker rm my-postgres
+```
+
+Start a new container with a volume attached:
+```
+$ docker run --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -v pgdata:/var/lib/postgresql/data -d -p 5432:5432 postgres
+```
+
+---
 
 ```
 $ docker --version
