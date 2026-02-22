@@ -135,14 +135,17 @@ Create virtual environment
 ```
 $ python -m venv <name>
 ```
+
 Activate virtual environment
 ```
 $ source <name>/bin/activate
 ```
+
 Deactivate virtual environment
 ```
 $ deactivate
 ```
+
 Install Django
 ```
 (.venv)$ pip install Django
@@ -150,6 +153,7 @@ Install Django
 ```
 $ python -m pip install Django
 ```
+
 Verifying
 ```
 $ django-admin --version
@@ -157,16 +161,18 @@ $ django-admin --version
 ```
 $ python3 -m django --version
 ```
+
 Creating a project
 ```
 $ django-admin startproject <name> .
 ```
+
 Interactive Python shell
 ```
 $ python manage.py shell
 ```
-Creating an application
 
+Creating an application  
 project-specific
 ```
 $ mkdir apps
@@ -177,18 +183,32 @@ global tool
 ```
 $ django-admin startapp <name>
 ```
-Sync database
+
+Create migrations
 ```
-$ python manage.py migrate
+(.venv)$ python manage.py makemigrations
 ```
+
+Apply migrations, Sync database (create database tables)
+```
+(.venv)$ python manage.py migrate
+```
+
 Run server
 ```
-$ python manage.py runserver
+(.venv)$ python manage.py runserver
 ```
+
 Create super user
 ```
-$ python manage.py createsuperuser
+(.venv)$ python manage.py createsuperuser
 ```
+
+---
+Email: admin@demo.test
+Password: ADMIN
+---
+
 #### Create a Django project in Docker
 docker-compose.yml file
 ```
