@@ -1,6 +1,6 @@
 # :memo: Notes
 ## BRAINSTORMING
-- [Garage](./brainstorming-garage.md)
+- [GMS](./brainstorming-gms.md)
 - [Job Application Tracker](./brainstorming-job-application-tracker.md)
 - [MotorLog](./brainstorming-motorlog.md)
 ## Software Developer

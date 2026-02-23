@@ -36,7 +36,7 @@ Your job:
 Cut features aggressively.
 
 Responsibilities:
-- Define WHO this is for (small garages? chains? Colombia only?)
+- Define WHO this is for
 - Define MVP (minimum features to sell)
 - Cut unnecessary features
 - Define pricing logic
@@ -64,28 +64,19 @@ An architect decides:
 Architecture is about:  
 Making the right decisions early so you don’t suffer later.
 
-For you to study:  
-- Modular Monolith
-- Clean Architecture concepts
-- Domain modeling
-- Multi-tenancy patterns
-- Trade-offs thinking
-
 You don’t need to become enterprise architect.  
 You need to become a pragmatic SaaS architect.
-
-You must define:
-- Multi-tenancy strategy
-- Tenant + Branch model
-- Role model (Owner, Manager, Mechanic)
-- Modular monolith structure
-- Security boundaries
 
 Study:
 - Modular monolith pattern
 - Domain modeling
 - RBAC (role-based access control)
 - SaaS architecture patterns
+- Modular Monolith
+- Clean Architecture concepts
+- Domain modeling
+- Multi-tenancy patterns
+- Trade-offs thinking
 
 #### Backend Developer
 This is where you're already strong.  
@@ -146,7 +137,7 @@ You must understand:
 - Multi-tenant isolation
 
 Since you’re using PostgreSQL → this is a strength.  
-Garage system is relational-heavy → DB design matters more than frontend.
+If system is relational-heavy → DB design matters more than frontend.
 
 Study:
 - Normalization
@@ -262,62 +253,18 @@ You must think like an engineer and like a founder — at the same time.
 ---
 
 ### Roadmap
-Don’t try to learn everything at once.
+Don’t try to learn everything at once.  
+* Clarify Your Idea
+  - Define the problem
+  - Define the target users
+  - Define the MVP
+  - Remove unnecessary complexity
 
-#### Phase 1 — Architecture Blueprint
-Before coding:
-- Define Tenant model
-- Define Branch model
-- Define Role model
-- Define core entities
-- Draw relationships
-- Decide subdomain or not
-- Define pricing idea
+* Planning
+  - Core Domain First Map
 
-No coding yet.
-
-#### Phase 2 — Build Core Domain
-Implement:
-- Auth
-- Tenant isolation
-- Branch isolation
-- Customer
-- Vehicle
-- WorkOrder
-- Invoice
-
-No inventory yet.  
-No advanced reports yet.  
-No analytics yet.
-
-#### Phase 3 — Make It Deployable
-- Deploy to VPS
-- Setup domain
-- Setup SSL
-- Setup backups
-- Add logging
-
-Now it becomes real.
-
-#### Phase 4 — Talk To Real Garages
-This is where 90% fail.
-
-You must:
-- Show demo
-- Ask what they hate about current system
-- Ask what Excel sheets they use
-- Observe how they work
-
-Then improve.
-
-##### Very Important Mindset
-Do NOT build like: “What features can I add?”  
-Build like: “What is the minimum system that a garage would pay $25/month for?”
-
-That question will guide architecture.
-
-Build real.  
-Refactor later.
+Core Domain First Map is a dependency map that answers:  
+What must exist before something else can exist?
 
 ## Software Developer
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
