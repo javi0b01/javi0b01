@@ -1,11 +1,24 @@
 # :memo: Notes
 ## SOFTWARE FOUNDER
 
-SaaS (Software as a Service)
+Answer: What are we building and why?
+
+⭐ The Key Rule (Remember This)  
+- Anything that creates business value goes first.
+- Anything that visualizes value goes later.
+
+Very Important Mindset  
+Do NOT build like: “What features can I add?”  
+Build like: “What is the minimum system that a garage would pay $25/month for?”
+
+That question will guide architecture.  
+Build real.  
+Refactor later.
 
 ### Terms and concepts
 - CRUX (Core Challenge | Critical Problem)
 - SDLC (Software Development Life Cycle)
+- SaaS (Software as a Service)
 
 ### Roles
 1. Product Manager
