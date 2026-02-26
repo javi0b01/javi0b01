@@ -100,7 +100,8 @@
 - Debug Toolbar
 
 #### Django Site Administration
-Custom User model (ALWAYS start with this in Django)
+Custom User model (ALWAYS start with this in Django)  
+Is necessary register custom user in the admin
 
 * Authentication and Authorization
   - Groups
@@ -205,8 +206,10 @@ Create super user
 ```
 
 ---
-Email: admin@demo.test
+
+Email: admin@demo.test  
 Password: ADMIN
+
 ---
 
 #### Create a Django project in Docker
@@ -289,6 +292,7 @@ $ pip freeze > requirements.txt
 ```
 $ pip install -r requirements.txt
 ```
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2023 - 2026  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2023 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
