@@ -1,7 +1,9 @@
 # :memo: Notes
 ## SOFTWARE FOUNDER
 
-Answer: What are we building and why?
+* Answer: What are we building and why?
+  - What (Product definition, essence)
+  - Why (Justification and context, reason)
 
 ⭐ The Key Rule (Remember This)  
 - Anything that creates business value goes first.
@@ -14,6 +16,8 @@ Build like: “What is the minimum system that a garage would pay $25/month for?
 That question will guide architecture.  
 Build real.  
 Refactor later.
+
+Elevator pitch
 
 ### Terms and concepts
 - CRUX (Core Challenge | Critical Problem)
@@ -279,6 +283,6 @@ Don’t try to learn everything at once.
 Core Domain First Map is a dependency map that answers:  
 What must exist before something else can exist?
 
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
