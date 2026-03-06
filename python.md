@@ -52,6 +52,36 @@ $ sudo apt install python3-dev python3-venv
 ```
 Install VIRTUALENV as package for creating virtual environment...
 Install PIPENV as package for creating virtual environment...
+
+---
+
+Use standard venv + pip
+```
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -e ".[dev]"
+```
+
+---
+
+Install UV
+```
+$ curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Test UV (restart terminal)
+```
+$ uv --version
+```
+
+After that, from the project root:
+```
+$ uv venv
+$ source .venv/bin/activate
+$ uv sync --extra dev
+$ uv sync
+```
+
 ### Setup Virtual Environment
 Create virtual environment
 ```
@@ -294,6 +324,7 @@ $ python --version
 
 - Doctest
 - Unitest
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2023  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
