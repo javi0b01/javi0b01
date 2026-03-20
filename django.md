@@ -119,6 +119,10 @@ Is necessary register custom user in the admin
 is_staff
 
 Pro tip: Check for permissions, not group names
+
+- User: Stores authentication/authorization identity
+- Profile: Stores user "profile" data (things you can show/edit without affecting logging permissions)
+
 ### Setup
 Verifying  
 To verify that Django can be seen by Python, type python from your shell. Then at the Python prompt, try to import Django:
