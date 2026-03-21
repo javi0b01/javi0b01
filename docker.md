@@ -248,6 +248,12 @@ $ docker-compose down
 $ docker-compose run <parameters (optionals)> <services> <command (optional)>
 $ docker-compose logs <parameters (optionals)> <services (optionals)>
 ```
+```
+$ docker compose up -d
+$ docker compose stop
+$ docker compose down
+$ docker compose down -v
+```
 ###### Examples
 Share image
 ```
@@ -340,6 +346,18 @@ Re-Build image
 ```
 $ docker build  -t <repo_name>:<version> .
 ```
+
+###### The System-Wide Cleanup
+This removes all stopped containers, unused networks, and dangling images
+```
+$ sudo docker system prune -f
+```
+
+This is the most important command. It removes all volumes not currently in use.
+```
+$ sudo docker system prune --volumes -f
+```
+
 ###### Example
 PostgreSQL
 
@@ -451,6 +469,7 @@ $ docker run -d --name project_name_postgres \
   -p 5432:5432 \
   postgres:16
 ```
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2026  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
