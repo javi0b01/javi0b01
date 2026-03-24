@@ -18,6 +18,10 @@ They are familiar with database management systems.
 *Other skills*  
 They have design skills, are creative, and have strong analytical, problem-solving, and time management skills.
 ### Hard Skills
+
+- Backend integrator
+- "Google-like" flow
+
 #### Programming
 * General
   - Version control
@@ -207,6 +211,7 @@ They have design skills, are creative, and have strong analytical, problem-solvi
 - Dominio de tecnologías OpenSource SIG, incluyendo GeoServer, PostGIS, Python (GeoPandas, GDAL, Fiona, Shapely, etc.).
 - Manejo de bases de datos espaciales y APIs de geoprocesamiento.
 - Conocimientos en JavaScript (Leaflet, OpenLayers) para visualización cartográfica.
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2025  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2025 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
