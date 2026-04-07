@@ -138,6 +138,11 @@
 - https://www.deepseek.com/
 - https://www.midjourney.com/
 
+- https://firebase.studio/
+- https://jules.google.com/
+- https://notebooklm.google/
+- https://colab.research.google.com/
+
 [:top:](#resources)
 ---
 ### API's
@@ -286,6 +291,17 @@
 - https://www.vim.org/
 #### VS Code Extensions
 - https://marketplace.visualstudio.com/
+- christian-kohler.path-intellisense
+- bradlc.vscode-tailwindcss
+- pranaygp.vscode-css-peek
+- formulahendry.auto-rename-tag
+- zignd.html-css-class-completion
+- naumovs.color-highlight
+- kisstkondoros.vscode-gutter-preview
+- heybourn.headwind
+- riazxrazor.html-to-jsx
+- xabikos.javascriptsnippets
+
 ##### Essential (IntelliSense, Linting, Formatting)
 * EditorConfig for VS Code
   - https://editorconfig.org
@@ -426,6 +442,7 @@
 #### CSS Analyzer
 - https://www.projectwallace.com/
 #### CSS Animations
+- https://neumorphism.io/
 - https://www.transition.style/
 - https://www.matthewlein.com/tools/ceaser
 #### CSS Conversions
@@ -441,6 +458,7 @@
 - https://bootswatch.com/
 - https://get.foundation/
 - https://960.gs/
+- https://picocss.com/
 - https://quasar.dev/
 #### CSS Inliner
 - https://templates.mailchimp.com/resources/inline-css/
@@ -575,6 +593,10 @@
 - https://dribbble.com/
 - https://jamstackthemes.dev/
 - https://github.com/Evavic44/portfolio-ideas
+- https://roadmap.sh/frontend/projects
+
+- https://histomed.cl/
+
 #### Illustrations
 - https://iradesign.io/
 - https://undraw.co/
@@ -602,6 +624,7 @@
   * https://patternlab.io/
     - https://demo.patternlab.io/
 - https://en.wikipedia.org/wiki/Observer_pattern
+- https://www.patterns.dev/
 #### Random images
 - https://source.unsplash.com/150x150/?portrait
 - https://source.unsplash.com/random/150x150/?img=1
@@ -629,6 +652,7 @@
 - https://ninjamock.com/
 - https://balsamiq.com/
 - https://www.adobe.com/products/xd.html
+- https://stitch.withgoogle.com/
 
 [:top:](#resources)
 ---
@@ -820,6 +844,7 @@
 - https://linuxjourney.com/
 - https://ngchallenges.gitbook.io/
 - https://mimo.org/
+- https://mode.com/sql-tutorial
 - https://programacion.net/
 - https://rapidapi.com/learn
 - https://refactoring.guru/
@@ -856,10 +881,19 @@
 - https://www.simplilearn.com/tutorials/java-tutorial
 - https://www.sololearn.com/
 - https://www.sqlbolt.com/
+- https://www.sqlzoo.net/
 - https://www.studytonight.com/
 - https://www.tutorialesprogramacionya.com/
 - https://www.w3schools.com/
 - https://www.yopuedoprogramar.com/
+
+- https://midu.link/cisco
+- https://mouredev.link/microsoftpython
+- https://mouredev.link/coursera40
+- https://www.elementsofai.com/
+
+- https://aws.amazon.com/education/awseducate/
+- https://skillbuilder.aws/
 
 [:top:](#resources)
 ---
@@ -1088,7 +1122,6 @@
 
 [:top:](#resources)
 
+## Author
 
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

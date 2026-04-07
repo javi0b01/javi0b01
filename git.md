@@ -15,6 +15,8 @@
 - [Git Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 * [GitHub](https://github.com/)
   - [Managing remote repositories](https://docs.github.com/en/get-started/git-basics/managing-remote-repositories)
+  - https://github.com/<username>.png
+  - https://gitdiagram.com/<username>/<reponame>
 - [GitLab](https://gitlab.com/)
 - [Bitbucket](https://bitbucket.org/)
 - [Azure Repos](https://azure.microsoft.com/en-us/products/devops/repos)
@@ -287,6 +289,8 @@ $ git reset <id>
 $ git reset <id> --soft
 $ git reset <id> --hard
 $ git reset HEAD
+$ git revert
+$ git cherry-pick
 $ git fetch
 $ git stash
 $ git clean
@@ -417,6 +421,6 @@ gh repo clone <REMOTE_URL>
 - optimize: improve performance
 - config: update configuration
 
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2026  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

@@ -76,6 +76,12 @@ $ npm cache verify
 $ npm cache clean --force
 ```
 If that fails, manually delete the folder mentioned in your error
+
+Free Space
+```
+$ npx npkill
+```
+
 ### NVM
 Install
 ```
@@ -271,6 +277,6 @@ $ pnpm -v
 11. Write tests for critical logic (Jest, Mocha, etc.).
 12. Use version control (Git) and meaningful commit messages.
 
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2026  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

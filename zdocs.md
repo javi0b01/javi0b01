@@ -82,6 +82,11 @@ Sample of an error case:
 ```
     {"result": "error", "message": "Underdone", "data": null}
 ```
+
+```
+<script>alert("Hello, Hack!")</script>
+```
+
 # Technical documentation
 ## Getting Started
 ## Stack
@@ -95,6 +100,7 @@ Sample of an error case:
 ### Optional
 ### Steps
 ### Use
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2023  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
