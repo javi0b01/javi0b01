@@ -173,6 +173,11 @@ Other rules in the project may stay generic; this one should reflect THIS projec
 
 Output a concise rule that an AI can follow to stay consistent with this project's standards.
 ```
-## Software Developer
-Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
-Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+
+### Skills
+- [Skills](https://skills.sh/)
+- [Cursor Skills](https://cursor.com/docs/skills)
+
+## Author
+
+Built by [JAVI](https://github.com/javi0b01/) © 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

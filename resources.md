@@ -143,6 +143,8 @@
 - https://notebooklm.google/
 - https://colab.research.google.com/
 
+- https://skills.sh/
+
 [:top:](#resources)
 ---
 ### API's
@@ -674,6 +676,7 @@
   - https://www.valentinog.com/blog/jsdoc/
 - https://apidocjs.com/
 - https://swagger.io/
+- https://www.makeareadme.com/
 
 [:top:](#resources)
 ---
