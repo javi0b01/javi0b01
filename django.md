@@ -211,7 +211,7 @@ Create super user
 
 ---
 
-Email: admin@demo.test  
+Email: admin@demo.test/javi@demo.test  
 Password: ADMIN
 
 ---

@@ -54,6 +54,9 @@ Basics
 ```
 $ sudo lsof -i :5432
 $ sudo ss -tlnp | grep 5432
+$ pg_isready
+$ sudo systemctl status postgresql
+$ sudo systemctl start postgresql
 $ sudo systemctl stop postgresql
 $ sudo systemctl disable postgresql
 ```
