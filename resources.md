@@ -1,10 +1,7 @@
 # :memo: Notes
 ## RESOURCES
 - [AI](#ai)
-* [API's](#apis)
-  - [Fake](#fake)
-  - [Tested](#tested)
-  - [Unproved](#unproved)
+- [API's](#apis)
 - [Architecture](#architecture)
 - [Authentication](#authentication)
 - [Authorization](#authorization)
@@ -129,10 +126,12 @@
 - https://chatgpt.com/
 - https://claude.ai/login
 - https://developers.google.com/gemini-code-assist/docs/overview
+- https://github.com/github/spec-kit
 - https://github.com/google-gemini/gemini-cli
 - https://grok.com/
 - https://openai.com/index/dall-e-3/
 - https://openwebui.com/
+- https://phindai.org/
 - https://stabledifffusion.com/
 - https://v0.dev/
 - https://www.deepseek.com/
@@ -244,6 +243,8 @@
 * Angular
   * NGRX
     - https://chromewebstore.google.com/detail/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=item-share-cb
+#### Tools
+- https://omatsuri.app/
 
 [:top:](#resources)
 ---
@@ -254,24 +255,26 @@
 ---
 ### Challenges
 - https://100dayscss.com/
-- https://www.dailycodingproblem.com/
-- https://www.frontendmentor.io/
+- https://adriann.github.io/programming_problems.html
+- https://adventofcode.com/
+- https://adventjs.dev/
+- https://codeforwin.org/2015/05/basic-programming-practice-problems.html
 - https://devchallenges.io/
 - https://exercism.org/
+- https://github.com/bradtraversy/50projects50days
 - https://interviewing.io/practice/
-- https://www.interviewcake.com/
-- https://adventjs.dev/
-- https://adventofcode.com/
-- https://www.w3resource.com/index.php
-- https://adriann.github.io/programming_problems.html
-- https://www.learneroo.com/subjects/3
 - https://workat.tech/problem-solving/lists/beginner-problems/practice
-- https://codeforwin.org/2015/05/basic-programming-practice-problems.html
+- https://www.dailycodingproblem.com/
+- https://www.frontendmentor.io/
+- https://www.interviewcake.com/
+- https://www.learneroo.com/subjects/3
+- https://www.w3resource.com/index.php
 
 [:top:](#resources)
 ---
 ### Cheatsheets
 - https://devhints.io/
+- https://overapi.com/
 
 [:top:](#resources)
 ---
@@ -495,6 +498,7 @@
 - https://dbdiagram.io/
 - https://dbeaver.io/
 - https://github.com/drawdb-io/drawdb
+- https://pgmodeler.io/
 - https://sqlitebrowser.org/
 - https://www.enterprisedb.com/
 - https://www.mongodb.com/
@@ -568,13 +572,14 @@
 #### Favicons
 - https://favicon.io/
 #### Fonts
-- https://www.jetbrains.com/lp/mono/
 - https://fonts.google.com/
 - https://fonts.adobe.com/
-- http://www.font2web.com/
+- https://github.com/tonsky/firacode
 - https://www.1001fonts.com/
-- https://www.dafont.com/es/
 - https://www.cdnfonts.com/
+- https://www.dafont.com/es/
+- http://www.font2web.com/
+- https://www.jetbrains.com/lp/mono/
 #### Icons
 - https://animatedicons.co/
 - https://fontawesome.com/
@@ -669,12 +674,14 @@
 [:top:](#resources)
 ---
 ### Documentation
+- https://12factor.net/
+- https://apidocjs.com/
 - https://devdocs.io/
-- https://jsdoc.app/
 * https://github.com/jsdoc/jsdoc
   - https://www.section.io/engineering-education/jsdoc-documentation/
   - https://www.valentinog.com/blog/jsdoc/
-- https://apidocjs.com/
+- https://jsdoc.app/
+- https://schema.org/
 - https://swagger.io/
 - https://www.makeareadme.com/
 
@@ -693,6 +700,7 @@
 - https://allthetags.com/
 - https://codeguide.co/
 - https://html5up.net/
+- https://htmlcheatsheet.com/
 - https://htmlreference.io/
 - https://htmlrev.com/
 - https://lenguajehtml.com/
@@ -818,6 +826,7 @@
 [:top:](#resources)
 ---
 ### Linux
+- ```sudo pro attach```
 - https://learn.microsoft.com/en-us/windows/wsl/
 
 [:top:](#resources)
@@ -849,6 +858,7 @@
 - https://mimo.org/
 - https://mode.com/sql-tutorial
 - https://programacion.net/
+- https://pythontutor.com/
 - https://rapidapi.com/learn
 - https://refactoring.guru/
 - https://scrimba.com/
@@ -873,6 +883,7 @@
 - https://www.jotajotavm.com/
 - https://www.kaggle.com/
 - https://www.khanacademy.org/
+- https://www.mindluster.com/
 - https://www.mygreatlearning.com/
 - https://www.mygreatlearning.com/academy
 - https://www.oracle.com/co/education/certification/get-certified/
@@ -996,9 +1007,10 @@
 ---
 ### Security
 - https://auth0.com/
+- https://frontegg.com/
+- https://owasp.org/
 - https://snyk.io/
 - https://www.comptia.org/
-- https://owasp.org/
 
 [:top:](#resources)
 ---
