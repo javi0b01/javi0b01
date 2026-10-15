@@ -87,10 +87,16 @@ $ sudo su -
 #### System information
 ```
 $ cat /etc/os-release
+$ hostname
+$ hostname -I
 $ uptime
 $ free
+$ free -h
+$ nproc
+$ lscpu
 $ ps
 $ df
+$ df -h
 $ fdisk
 $ lsblk
 $ top
