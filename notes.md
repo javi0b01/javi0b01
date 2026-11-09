@@ -21,6 +21,24 @@ founder](software-founder.md) | [spring](spring.md) | [sql](sql.md) |
 [versioning](versioning.md) | [vuejs](vuejs.md) | [webpack](webpack.md) |
 [zdocs](zdocs.md)
 
+## Stacks utilizados
+
+**RYLSA.** Git, HTML, CSS, JavaScript, TypeScript, Node, Express,
+Angular, MongoDB, Python, Django, HTMX, PostgreSQL, Docker, GCP, IIS,
+AI Cursor Editor.
+
+**Mezubo | HEYGIA.** Git, HTML, CSS, JavaScript, TypeScript, Angular,
+PrimeNG, PrimeFlex.
+
+**Vertical.** Git, HTML, CSS, JavaScript, TypeScript, Sergey, Astro,
+Svelte, React, Vue, Quasar, Tailwind, Bootstrap, Django, Django REST
+framework, SQL, Docker.
+
+**Triario.** Git, Docker, HTML, CSS, JavaScript, React, Bootstrap.
+
+**BIT.** Git, HTML, CSS, JavaScript, TypeScript, Angular, React,
+Bootstrap, MongoDB, Node, Express, Java.
+
 ## Project Euler
 
 Retos de [Project Euler](https://github.com/javi0b01/challenges-project_euler),
