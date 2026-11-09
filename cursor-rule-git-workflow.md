@@ -1,10 +1,14 @@
 # :memo: Notes
+
 ## CURSOR
+
 ### Rule Git Workflow
 
 ---
+
 description: Git commit and push behavior rules
 alwaysApply: true
+
 ---
 
 # Git Workflow Rules
@@ -29,7 +33,8 @@ alwaysApply: true
 
 > **Never push unless explicitly asked.**
 
-- After all commits are complete (including separate README commits), inform user: "Your branch is X commits ahead. Want me to push?"
+- After all commits are complete (including separate README commits), inform
+  user: "Your branch is X commits ahead. Want me to push?"
 - Only push when user says "yes", "push", "push it", or similar
 
 ## Related Rules
@@ -40,10 +45,12 @@ alwaysApply: true
 
 ## Summary
 
-- implement X     → Show code, wait for "Apply this", apply changes, STOP, wait for ship-it
+- implement X     → Show code, wait for "Apply this", apply changes, STOP, wait
+  for ship-it
 - ship-it         → Update docs, commit, show summary
 - push            → Push to remote
 
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2026  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

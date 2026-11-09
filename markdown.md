@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## MARKDOWN
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [Markdown](https://daringfireball.net/projects/markdown/)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [github markdown emoji](https://gist.github.com/rxaviers/7360908)
@@ -21,6 +26,8 @@
 - [Markdown editor](https://pandao.github.io/editor.md/en.html)
 - [Badge-It](https://github.com/pujux/badge-it)
 - [StackEdit](https://stackedit.io/)
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

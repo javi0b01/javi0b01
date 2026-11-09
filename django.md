@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## DJANGO
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [Django](https://www.djangoproject.com/)
 - [Django documentation](https://docs.djangoproject.com/)
 - [Topics](https://docs.djangoproject.com/en/4.2/topics/)
@@ -18,81 +23,90 @@
 - [Classy Class-Based Views](https://ccbv.co.uk/)
 - [Design philosophies](https://docs.djangoproject.com/en/4.2/misc/design-philosophies/)
 - [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/)
+
 ### Requirements
+
 - [Python](https://www.python.org/)
+
 ### Terms and concepts
-* Django Architecture MVT (Model-View-Template)
+
+- Django Architecture MVT (Model-View-Template)
   - Model: the data layer
   - View: the logic layer
   - Template: the presentation layer
 
-* Flow
+- Flow
   - URL
   - View
   - Model
   - Template
 
-* Model Layer
+- Model Layer
   - To structure and interact with applicaton's data.
   - The blueprint for data.
   - It is the single, definitive source of truth for information.
 
-* View Layer
+- View Layer
   - Is the "business logic" of application.
   - It's the thinker and the decision-maker.
   - It's the middleman that connects the Models and the Template.
 
-* Template Layer
+- Template Layer
   - HTML that defines the structure and content of a page.
   - It's responsible for presentation.
   - It separates the look of the page from the Python logic.
 
 - Template Engine combine the templates with the data to generate a final HTML page.
 
-* Forms
+- Forms
 
 ---
 
-* Database
+- Database
   - Table
   - Column
   - Key
   - Relationship
+
 - ORM (Object-Relational Mapper) (Object-Relational Mapping)
 - Python
 - Python package
 - Python web framework
 - Installation
 - Project container
-* Project
+- Project
   - django-admin
   - manage.py
   - settings.py
   - urls.py
+
 - Development server
-* Application
+- Application
   - include the app in the project, add application in settings.py file
+
 - Views
-* Urls
+- Urls
   - include
   - path
-* Database
+- Database
   - settings.py
   - migrate
-* All the common database relationships
+- All the common database relationships
   - many-to-one
   - many-to-many
   - one-to-one
-* Models
+- Models
   - Activating models
   - makemigrations
   - migrate
+
 - Admin user or Super user
 - Administrative interface
-* Public interface "view"
+- Public interface "view"
   - URL dispatcher
   - template
   - namespace
+
 - Templates
 - Forms
 - Tests
@@ -100,14 +114,15 @@
 - Debug Toolbar
 
 #### Django Site Administration
+
 Custom User model (ALWAYS start with this in Django)  
 Is necessary register custom user in the admin
 
-* Authentication and Authorization
+- Authentication and Authorization
   - Groups
   - Users
 
-* The Three Key Models
+- The Three Key Models
   - User
   - Permission
   - Group
@@ -121,103 +136,130 @@ is_staff
 Pro tip: Check for permissions, not group names
 
 - User: Stores authentication/authorization identity
-- Profile: Stores user "profile" data (things you can show/edit without affecting logging permissions)
+- Profile: Stores user "profile" data (things you can show/edit without
+  affecting logging permissions)
 
 ### Setup
+
 Verifying  
-To verify that Django can be seen by Python, type python from your shell. Then at the Python prompt, try to import Django:
+To verify that Django can be seen by Python, type python from your shell. Then
+at the Python prompt, try to import Django:
+
 ```
 >>> import django
 >>> print(django.get_version())
 4.2
 ```
-Or you can tell Django is installed and which version by running the following command in a shell prompt:
+
+Or you can tell Django is installed and which version by running the following
+command in a shell prompt:
+
 ```
-$ python -m django --version
+python -m django --version
 ```
+
 #### Create a Django project in virtual environment
+
 Create virtual environment
+
 ```
-$ python -m venv <name>
+python -m venv <name>
 ```
 
 Activate virtual environment
+
 ```
-$ source <name>/bin/activate
+source <name>/bin/activate
 ```
 
 Deactivate virtual environment
+
 ```
-$ deactivate
+deactivate
 ```
 
 Install Django
+
 ```
 (.venv)$ pip install Django
 ```
+
 ```
-$ python -m pip install Django
+python -m pip install Django
 ```
 
 Verifying
+
 ```
-$ django-admin --version
+django-admin --version
 ```
+
 ```
-$ python3 -m django --version
+python3 -m django --version
 ```
 
 Creating a project
+
 ```
-$ django-admin startproject <name> .
+django-admin startproject <name> .
 ```
 
 Interactive Python shell
+
 ```
-$ python manage.py shell
+python manage.py shell
 ```
 
 Creating an application  
 project-specific
+
 ```
-$ mkdir apps
-$ touch apps/__init__.py
-$ python manage.py startapp <name> apps/<name>
+mkdir apps
+touch apps/__init__.py
+python manage.py startapp <name> apps/<name>
 ```
+
 global tool
+
 ```
-$ django-admin startapp <name>
+django-admin startapp <name>
 ```
 
 Create migrations
+
 ```
 (.venv)$ python manage.py makemigrations
 ```
 
 Apply migrations, Sync database (create database tables)
+
 ```
 (.venv)$ python manage.py migrate
 ```
 
 Run server
+
 ```
 (.venv)$ python manage.py runserver
 ```
 
 Create super user
+
 ```
 (.venv)$ python manage.py createsuperuser
 ```
 
 ---
 
-Email: admin@demo.test/javi@demo.test  
+Email: <admin@demo.test>/javi@demo.test  
 Password: ADMIN
 
 ---
 
 #### Create a Django project in Docker
+
 docker-compose.yml file
+
 ```
 services:
   web:
@@ -228,7 +270,9 @@ services:
     ports:
       - '8000:8000'
 ```
+
 Dockerfile file
+
 ```
 FROM python:3.11
 ENV PYTHONUNBUFFERED 1
@@ -238,65 +282,92 @@ COPY requirements.txt /src/
 RUN python -m pip install -r requirements.txt
 COPY . /src/
 ```
+
 requirements.txt file
+
 ```
 Django==4.1
 ```
+
 Create project
+
 ```
-$ docker-compose run web django-admin startproject <project_name> .
+docker-compose run web django-admin startproject <project_name> .
 ```
+
 Change the ownership of the new files
+
 ```
-$ chown -R $USER:$USER web manage.py
+chown -R $USER:$USER web manage.py
 ```
+
 Apply the migrations
+
 ```
-$ docker-compose run web python manage.py migrate
+docker-compose run web python manage.py migrate
 ```
+
 Create super user
+
 ```
-$ docker-compose run web python manage.py createsuperuser
+docker-compose run web python manage.py createsuperuser
 ```
+
 Run
+
 ```
-$ docker-compose up
+docker-compose up
 ```
+
 Done!
-- http://127.0.0.1:8000/
-- http://127.0.0.1:8000/admin/
+
+- <http://127.0.0.1:8000/>
+- <http://127.0.0.1:8000/admin/>
 Run bash
+
 ```
-$ docker exec -it <container> bash
+docker exec -it <container> bash
 ```
+
 #### New Packages
+
 From project root, with venv activated
+
 ##### pyproject file
+
 Generate/update pyproject.toml in project root
+
 ```
-$ python scripts/generate_pyproject.py
+python scripts/generate_pyproject.py
 ```
+
 Custom name and version
+
 ```
-$ python scripts/generate_pyproject.py --name o_p-web-app --version 0.1.0
+python scripts/generate_pyproject.py --name o_p-web-app --version 0.1.0
 ```
+
 Preview without writing
+
 ```
-$ python scripts/generate_pyproject.py --dry-run
+python scripts/generate_pyproject.py --dry-run
 ```
 
 ```
-$ pip install -e .
+pip install -e .
 ```
+
 ##### requirements file
+
 ```
-$ pip freeze > requirements.txt
+pip freeze > requirements.txt
 ```
 
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Author
 
-Built by [JAVI](https://github.com/javi0b01/) © 2023 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+Built by [JAVI](https://github.com/javi0b01/) © 2023 - 2026 | Found a bug or
+have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

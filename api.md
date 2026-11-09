@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## API
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,12 +11,16 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [REST APIs](https://www.ibm.com/cloud/learn/rest-apis)
 - [restfulapi.net](https://restfulapi.net/)
 - [JSON API](https://jsonapi.org/)
+
 ### Terms and concepts
-* API's
+
+- API's
   - Open APIs
   - Partner APIs
   - Public APIs
@@ -21,48 +28,55 @@
   - Composite APIs
   - Batch APIs
   - Inified APIs
+
 - API or Application Programing Interface
-* REST or Representational State Transfer
+- REST or Representational State Transfer
   - Uniform Interface
   - Client-Server
   - Stateless
   - Cacheable
   - Layered System
   - Code on demand
+
 - RESTFul
 - URL or Uniform Resource Locator
 - URI or Uniform Resource Identifiers
 - Endpoint
-* HTTP Verbs or HTTP Methods
-  * Idempotency in HTTP methods
+- HTTP Verbs or HTTP Methods
+  - Idempotency in HTTP methods
     - Idempotent = safe to retry (same result) HEAD-OPTIONS-GET-PUT-DELETE
     - Non-idempotent = every call changes state POST
+
 - HTTP Status code
 - HTTP Services
-* Request
+- Request
   - Header
   - Body
   - QueryString
-* Response
+- Response
   - Header
   - Body
   - Status code
+
 - Versioning
-* Documentation
+- Documentation
   - Swagger library
   - Swagger UI
+
 - API First Design
 - CORS
-* Authentication
+- Authentication
   - Identity
   - Json Web Token
-* Authorization
+- Authorization
   - Permission
-  * OAuth
+  - OAuth
     - Client
     - Resource owner
     - Resource server
     - Authorization server
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

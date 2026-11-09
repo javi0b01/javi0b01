@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## SQL
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,10 +11,14 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [SQL](https://www.iso.org/standard/76583.html)
 - [Keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
+
 ### Terms and concepts
+
 - Database
 - Database Modeling
 - SQL (Structured Query Language)
@@ -22,43 +29,46 @@
 - DBA (DataBase Administrator)
 - ETL (Extracting Transforming Loading)
 - Syntax
-* Comments
+- Comments
   - Single line
   - Multi-line
-* Keywords
+- Keywords
   - Not case-sensitive
+
 - Statements
 - Conditionals
-* Operators
+- Operators
   - Arithmetic
   - Bitwise
   - Comparison
   - Compound
   - Logical
+
 - Truth table
-* Structure (Entities)
-  * DB or Database
-    * Table
-      * Columns or Fields or Attributes
+- Structure (Entities)
+  - DB or Database
+    - Table
+      - Columns or Fields or Attributes
         - Define (data type, name)
         - Limit
-      * Rows or Records
+      - Rows or Records
         - Ilimit (optional)
       - Index
+
 - Cardinality
-* Keys
+- Keys
   - Primary
   - Foreing
-* Queries
+- Queries
   - Subqueries
   - Aliases
   - Views
-* Commands
+- Commands
   - Execution order
   - Basic
   - Advanced
   - Scripts
-* Relationship between tables
+- Relationship between tables
   - OneToOne
   - OneToMany
   - ManyToOne
@@ -66,18 +76,20 @@
   - ManyToAny
   - Unidirectional
   - Bidirectional
+
 - Database structure
 - ER Diagram or Entity-Relationship model
-* Database (Basic unit)
-  * Entities
+- Database (Basic unit)
+  - Entities
     - Table (Basic entity)
     - Schema
     - View
     - Trigger
     - Procedure
-* SQL environment
+- SQL environment
   - Backup
   - Recovery
+
 - SQL Server Functions
 
 - Execution order
@@ -95,5 +107,6 @@
 - Good practices and optimization
 
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2023 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## MongoDB
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,25 +11,29 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [MongoDB](https://www.mongodb.com/)
 - [MongoDB Documentation](https://www.mongodb.com/docs/)
 - [Install MongoDB Community Edition on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#install-mongodb-community-edition-on-ubuntu)
 - [MongoDB CRUD Operations](https://www.mongodb.com/docs/manual/crud/#mongodb-crud-operations)
+
 ### Terms and concepts
+
 - MongoDB Editions
 - MongoDB Shell
 - MongoDB Compass
 - MongoDB Atlas
-* MongoDB
+- MongoDB
   - Based on JS
   - BSON format (Binary Script Object Notation)
-  * Documental (records)
+  - Documental (records)
     - Collections (tables)
     - 16Mb limit
 
-* Database
-  * Collections
+- Database
+  - Collections
     - Documents
 
 - MQL | MongoDB Query Language
@@ -47,10 +54,13 @@
 - Connecting
 
 - mongodb (node package)
-* ODM
+- ODM
   - Mongoose
+
 #### Commands
+
 Service
+
 ```
 $ mongod --version
 $ sudo systemctl start mongod
@@ -62,12 +72,16 @@ $ sudo systemctl restart mongod
 $ mongosh
 test> exit
 ```
+
 Run
+
 ```
-$ mongod
-$ mongo
+mongod
+mongo
 ```
+
 Basic
+
 ```
 $ mongosh
 > show dbs
@@ -84,9 +98,12 @@ $ mongosh
 ```
 
 Sample MongoDB connection URI
+
 ```
 mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.xsyfa.mongodb.net/<DATABASE_NAME>?retryWrites=true&w=majority&appName=Cluster0
 ```
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

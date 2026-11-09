@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## ANGULAR
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [Angular Docs (previous)](https://angular.io/docs)
 - [Angular v18](https://angular.dev/)
 - [Angular Tutorials](https://angular.dev/tutorials)
@@ -19,70 +24,100 @@
 - [Material Design](https://m3.material.io/)
 - [Angular Blog](https://blog.angular.dev/)
 - [NGRX](https://ngrx.io/)
+
 ### Requirements
+
 - Nodejs
+
 ### Install
+
 Angular CLI
+
 ```
-$ npm install -g @angular/cli
-$ ng version
+npm install -g @angular/cli
+ng version
 ```
+
 ### Setup
+
 Project
+
 ```
-$ ng new <app name>
-$ ng new <app name> --directory ./
-$ cd <app name>
-$ ng serve
-$ ng serve --open
+ng new <app name>
+ng new <app name> --directory ./
+cd <app name>
+ng serve
+ng serve --open
 ```
+
 Components
+
 ```
-$ ng generate component <name>
+ng generate component <name>
 ```
+
 Simple component
+
 ```
-$ ng generate component <name> --skip-tests --inline-style --inline-template
-$ ng generate component <name> --skip-tests -s -t
+ng generate component <name> --skip-tests --inline-style --inline-template
+ng generate component <name> --skip-tests -s -t
 ```
+
 Services
+
 ```
-$ ng generate service <name>
+ng generate service <name>
 ```
+
 Guards
+
 ```
-$ ng generate guard <name>
+ng generate guard <name>
 ```
+
 Custom Directive
+
 ```
-$ ng generate directive <name>
+ng generate directive <name>
 ```
+
 Custom Pipe
+
 ```
-$ ng generate pipe <name>
+ng generate pipe <name>
 ```
+
 100% StandAlone
+
 ```
-$ ng generate @angular/core:standalone
+ng generate @angular/core:standalone
 ```
+
 ---
 Config Angular CLI
+
 ```
-$ npm i -g @angular/cli
-$ ng config -g cli.packageManager <yarn/pnpm/bun>
+npm i -g @angular/cli
+ng config -g cli.packageManager <yarn/pnpm/bun>
 ```
+
 ---
 Add Angular Eslint
+
 ```
-$ ng add @angular-eslint/schematics<@18.1.0.>
+ng add @angular-eslint/schematics<@18.1.0.>
 ```
+
 ---
 Add Angular Material
+
 ```
-$ ng add @angular/material
+ng add @angular/material
 ```
+
 ---
 Migrate Angular project from CSS to SCSS (Sass) [Also for Angular Material Projects]
+
 ```
 #### Please Backup your project first!!!!!!!!
 # run this in your project root folder
@@ -110,7 +145,9 @@ npm install node-sass --save-dev
 
 # Everything should work now!
 ```
+
 ### Terms and concepts
+
 - Library
 - Framework
 - Structural platform
@@ -120,14 +157,14 @@ npm install node-sass --save-dev
 - Transpilation
 - Compilation
 
-* First steps
+- First steps
   - Install de Angular CLI
   - Create a workspace and initial application
   - Run the application
   - Up app
   - Down app
 
-* Builders
+- Builders
   - browser (Webpack)
   - browser-esbuild (Vite Esbuild)
   - application (Vite Esbuild by default)
@@ -160,47 +197,47 @@ npm install node-sass --save-dev
 - Effects
 - Http
 - Caching
-* Testing
+- Testing
   - given
   - when
   - then
 
-* Control Flow
+- Control Flow
   - Directives
   - Syntax Template
 
-* Change Detection
+- Change Detection
   - OnPush (Only when...User Interaction/Input Params/Events ex: Observable)
   - changeDetectionRef
   - markForChanges
 
-* Config
+- Config
   - Providers
 
-* Component
+- Component
   - Presentational (No intelligent => UI, Show data)
   - Container (Intelligent => Logic, Communication)
-  * Create
+  - Create
     - Manually
-    * Automatically
+    - Automatically
       - CLI
   - import
   - Metadata
-  * Decorator
-    * Attributes
+  - Decorator
+    - Attributes
       - Selector
-      * Template
+      - Template
         - external
         - inline
-      * Styles
+      - Styles
         - external
         - inline
-  * Class
-    * Attributes
+  - Class
+    - Attributes
       - Properties
-      * Methods
+      - Methods
         - Constructor
-  * Lifecycle
+  - Lifecycle
     - Hooks
     - ngOnInit
     - ngOnChanges
@@ -210,45 +247,45 @@ npm install node-sass --save-dev
 - Handling Events
 - Two-way binding, bidirectional binding, Banana in a Box
 
-* Data binding
+- Data binding
   - Interpolation
-  * Binding
+  - Binding
     - Property binding
     - One way binding
     - Two way binding
     - Event binding
 
-* Component interaction
-  * @Input
+- Component interaction
+  - @Input
     - Property binding
-  * @Output
+  - @Output
     - EventEmitter
   - Services
 
-* Services
+- Services
   - Singleton
   - Connecting external entities
   - Information sharing
   - Business logic
-  * Built-in
+  - Built-in
     - HttpClient
   - Custom
 
-* Dependencies
-  * Inject
+- Dependencies
+  - Inject
     - on constructor method
-    * with inject
+    - with inject
       - options
 
-* Dependency Injection
+- Dependency Injection
   - Defining dependency providers
 
-* Directives
-  * Built-in
-    * Attribute
+- Directives
+  - Built-in
+    - Attribute
       - Property binding
-    * Structure
-      * Control Structures
+    - Structure
+      - Control Structures
         - Conditionals
         - Loops
         - Deferrable views
@@ -256,10 +293,10 @@ npm install node-sass --save-dev
         - Content
     - Event
     - Image
-  * Custom
+  - Custom
     - Attribute
     - Structure
-  * Old...
+  - Old...
     - ngSrc
     - ngStyle
     - ngClass
@@ -270,7 +307,7 @@ npm install node-sass --save-dev
     - ng-container
     - ng-template
     - ngTemplateOutlet
-  * New...
+  - New...
     - @if
     - @switch
     - @case
@@ -282,123 +319,126 @@ npm install node-sass --save-dev
     - @error
     - @let
 
-* Pipes
+- Pipes
   - Built-in
   - Custom
 
-* Routing
-  * Routes
+- Routing
+  - Routes
     - single
     - params
-  * Directives
+  - Directives
     - router-outlet
     - routerLink
     - routerLinkActive
     - ngClass
-  * ActivatedRoute
+  - ActivatedRoute
     - params
-  * Router
+  - Router
     - redirect
     - redirect with function
   - Guards
   - Resolvers
 
-* Forms
-  * Template driven
+- Forms
+  - Template driven
     - FormsModule
-  * Reactive
-    * ReactiveFormsModule
+  - Reactive
+    - ReactiveFormsModule
       - FormGroup
       - FormBuilder
       - Validators
       - FormControl
       - FormArray
 
-* Observables
+- Observables
   - subscribe
   - unsubscribe
   - pipe
   - outputFromObservable
   - outputToObservable
 
-* Signals
+- Signals
   - signal
   - computed
   - set
   - update
   - mutate
-  * Signal Inputs
+  - Signal Inputs
     - input
     - required
     - transform
     - alias
-  * Signal Outputs
+  - Signal Outputs
     - output
     - emit
     - outputFromObservable
     - outputToObservable
-  * Signal Queries
+  - Signal Queries
     - viewChild
     - viewChildren
-  * Model Inputs
+  - Model Inputs
     - model
 
-* Effects
+- Effects
   - effect
 
-* HTTP Client Service
-  * HttpClientModule
+- HTTP Client Service
+  - HttpClientModule
     - HttpClient
-  * provideHttpClient
+  - provideHttpClient
     - HttpClient
 
-* Caching
+- Caching
   - Pipes
   - Pure pipe
   - Memoization
 
 - Install packages
 - Config file
-* Reactive Programming
+- Reactive Programming
   - The RxJS library
+
 - CSR | Client Side Render
-* SSR | Server Side Render
+- SSR | Server Side Render
   - Hydration total
   - Hydration incremental
   - WIZ
+
 - SSG | Static Site Generation
 
-* angular.json
-  * schematics
+- angular.json
+  - schematics
     - skipTests
     - changeDetection
-  * architect
+  - architect
     - builder
 
-* app.config
-  * provideRouter
+- app.config
+  - provideRouter
     - withComponentInputBinding
-  * provideHttpClient
+  - provideHttpClient
     - withFetch
 
-* tsconfig
+- tsconfig
   - baseUrl
 
-* State Management
+- State Management
   - State
-  * Core
+  - Core
     - Input
     - Output
     - Services
-  * NgRx
+  - NgRx
     - Redux pattern
     - store
     - store-devtools
-    * Architecture
+    - Architecture
       - Actions
       - Reducers
       - Selectors
 
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## NODEJS
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,105 +11,139 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [Node.js](https://nodejs.org)
-* Node Version Manager
+- Node Version Manager
   - [nvm](https://github.com/nvm-sh/nvm)
   - [NVM for Windows](https://github.com/coreybutler/nvm-windows)
   - [n](https://github.com/tj/n)
   - [fnm](https://github.com/Schniz/fnm)
-* Node Package Manager
+- Node Package Manager
   - [npm](https://www.npmjs.com/)
   - [pnpm](https://pnpm.io/)
+
 ### Node
+
 Install
+
 ```
-$ sudo snap install node --classic
+sudo snap install node --classic
 ```
+
 ```
-$ sudo apt update
-$ sudo apt install nodejs
-$ sudo apt install npm
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
 ```
+
 ```
-$ npm install -g npm@latest
+npm install -g npm@latest
 ```
+
 Verify
+
 ```
-$ node -v
-$ npm -v
-$ node <file>
-$ node --watch <file>
+node -v
+npm -v
+node <file>
+node --watch <file>
 ```
+
 Install package
+
 ```
-$ npm install <name>
-$ npm install express --save
-$ npm install <name> --save-prod / -P
-$ npm install <name> --save-dev / -D
-$ npm install <name> --global / -g
+npm install <name>
+npm install express --save
+npm install <name> --save-prod / -P
+npm install <name> --save-dev / -D
+npm install <name> --global / -g
 ```
+
 Uninstall package
+
 ```
-$ npm uninstall -g <name>
-$ npm uninstall <name>
+npm uninstall -g <name>
+npm uninstall <name>
 ```
+
 Clean Reinstall
+
 ```
-$ rm -Rf node_modules package-lock.json
-$ npm install
+rm -Rf node_modules package-lock.json
+npm install
 ```
+
 Clear Proxy Settings
+
 ```
-$ npm config delete proxy
-$ npm config delete https-proxy
+npm config delete proxy
+npm config delete https-proxy
 ```
+
 Set the Registry Manually
+
 ```
-$ npm config set registry https://registry.npmjs.org/
+npm config set registry https://registry.npmjs.org/
 ```
+
 Increase the Timeout Limit
+
 ```
-$ npm config set fetch-retry-maxtimeout 600000
-$ npm config set fetch-retries 5
+npm config set fetch-retry-maxtimeout 600000
+npm config set fetch-retries 5
 ```
+
 Clear chache
+
 ```
-$ npm cache verify
-$ npm cache clean --force
+npm cache verify
+npm cache clean --force
 ```
+
 If that fails, manually delete the folder mentioned in your error
 
 Free Space
+
 ```
-$ npx npkill
+npx npkill
 ```
 
 ### NVM
+
 Install
+
 ```
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-$ nvm -v
-$ nvm install --lts
-$ nvm ls
-$ nvm ls-remote
-$ nvm install vA.B.C
-$ nvm use vA.B.C
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm -v
+nvm install --lts
+nvm ls
+nvm ls-remote
+nvm install vA.B.C
+nvm use vA.B.C
 ```
+
 ### pnpm
+
 Install
+
 ```
-$ npm install -g pnpm
+npm install -g pnpm
 ```
+
 Verify
+
 ```
-$ pnpm -v
+pnpm -v
 ```
+
 ### Terms and concepts
-* Node.js
-  * Fork
+
+- Node.js
+  - Fork
     - io.js
-  * JavaScript runtime environment
+  - JavaScript runtime environment
     - Based on JS language
     - Built on Google's V8 engine for Backend
     - Interpeter
@@ -115,20 +152,20 @@ $ pnpm -v
     - Asynchronous
     - I/O model
     - Asynchronous non blocking model
-  * Asynchronous non blocking model
+  - Asynchronous non blocking model
     - Synchronous, parallelism, simultaneous
     - Asynchronous, concurrence, alternate
     - Blocking
     - Non-blocking
     - Reactor design pattern
-  * Single thread
+  - Single thread
     - Based on callbacks
     - Event loop
 
-* REPL
+- REPL
 
-* Good practices
-  * Order
+- Good practices
+  - Order
     - Libraries, Modules
     - Constants
     - Objects, Variables
@@ -136,38 +173,38 @@ $ pnpm -v
     - Events
     - Executions
     - Mode strict
-  * Prefer
+  - Prefer
     - lowerCamelCase
     - Single quotes
 
-* Modules
-  * Types
+- Modules
+  - Types
     - Core modules
     - Local modules
     - Third-party modules
 
-* Core modules or Built-in modules
+- Core modules or Built-in modules
   - Stability level
-  * Some modules of the core
+  - Some modules of the core
     - Globals
     - Process
     - OS
     - File System
-    * Events
+    - Events
       - Action into app
       - Define
       - Emit
       - Listen
-      * EventEmitter
+      - EventEmitter
         - Emitters
       - Event Handler or Event Listener
-    * HTTP
-      * Model: client-server
-      * HTTP protocol
-      * Port
-      * Request
+    - HTTP
+      - Model: client-server
+      - HTTP protocol
+      - Port
+      - Request
         - Methods HTTP or Verbs HTTP
-      * Response
+      - Response
         - Status codes HTTP
       - CRUD (Create, Read, Update, Delete)
     - URL
@@ -179,7 +216,7 @@ $ pnpm -v
     - Path
     - Query String
     - Sniffer
-    * Forms
+    - Forms
       - GET
       - POST
     - Debugger
@@ -187,30 +224,30 @@ $ pnpm -v
     - assert
     - v8
 
-* Third-party modules
+- Third-party modules
 
-* NPM (Node Package Manager)
+- NPM (Node Package Manager)
   - Package
   - Module
   - Dependency
-  * Types packages
+  - Types packages
     - Globals
-  * Installing packages
+  - Installing packages
     - Unique: ```npm install <package_name>``` (not recommended)
     - Global: ```npm install <package_name> -g```
     - Project dependency: ```npm install <package_name> --save``` (package.json)
     - Development dependency: ```npm install <package_name> --save-dev``` (package.json)
-  * Uninstalling packages
-  * package.json
+  - Uninstalling packages
+  - package.json
     - ```npm init``` (for a new project)
     - ```npm install``` (for an existing project)
-  * package-lock.json
+  - package-lock.json
     - autogenerate when package.json or tree node_modules is modify
     - hold record of all dependencies
     - describe the tree generate for next installations
     - contain details
 
-* Promises
+- Promises
   - pending
   - resolve
   - reject
@@ -220,13 +257,13 @@ $ pnpm -v
   - async
   - await
 
-* Callback function
+- Callback function
 
-* Method chaining
+- Method chaining
 
-* Inheritance
+- Inheritance
 
-* Classes
+- Classes
   - class
   - constructor
   - extends
@@ -236,27 +273,28 @@ $ pnpm -v
   - private field
   - public field
 
-* Middlewares
+- Middlewares
   - Are functions that running after request and running before response.
-  - Are functions that have access to the request object (req), the response object (res) and the next() function.
-  * Scope
+  - Are functions that have access to the request object (req), the response
+    object (res) and the next() function.
+  - Scope
     - Global
     - Local
-  * Type
+  - Type
     - Filters
     - Provider
 
-* Some middlewares
-  * Built-in
+- Some middlewares
+  - Built-in
     - static
-  * External
+  - External
     - favicon
     - logger
     - cookie-parser
     - cookie-session
     - body-parser
 
-* Full Stack JavaScript Developer
+- Full Stack JavaScript Developer
   - JAM stack (Javascript, APIs, Markup)
   - MERN stack (MongoDB, Express, React, Node)
   - MEAN stack (MongoDB, Express, Angular, Node)
@@ -264,6 +302,7 @@ $ pnpm -v
   - MESN stack (MongoDB, Express, Svelte, Node)
 
 ### Best practices for Node.js + TypeScript projects using ES modules:
+
 1. Use explicit file extensions (.js) in all local imports.
 2. Keep environment variable loading (dotenv.config()) at the entry point only.
 3. Organize code by feature: e.g., src/routes, src/controllers, src/models, db.
@@ -279,4 +318,5 @@ $ pnpm -v
 
 ## Author
 
-Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or
+have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

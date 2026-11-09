@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## TYPESCRIPT
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [TypeScript](https://www.typescriptlang.org/)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 - [TypeScript Cheat Sheets](https://www.typescriptlang.org/cheatsheets)
@@ -17,28 +22,42 @@
 - [Node TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/node)
 - [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
 - [Vue TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/vue)
+
 ### Requirements
+
 - Nodejs
+
 #### Install
+
 Global
+
 ```
-$ npm install -g typescript
-$ tsc -v
+npm install -g typescript
+tsc -v
 ```
+
 ##### Setup within a new npm project
+
 Create a new npm project
+
 ```
-$ npm init -y
+npm init -y
 ```
+
 Installing the Compiler
+
 ```
-$ npm install typescript --save-dev
+npm install typescript --save-dev
 ```
+
 Configuring the compiler
+
 ```
-$ npx tsc --init
+npx tsc --init
 ```
+
 tsconfig.json file
+
 ```
 {
   "compilerOptions": {
@@ -59,20 +78,29 @@ tsconfig.json file
   ]
 }
 ```
+
 index.ts file
+
 ```
 console.log("Works!")
 ```
+
 Run compiler
+
 ```
-$ npx tsc
+npx tsc
 ```
+
 ##### Setup
+
 Project
+
 ```
-$ tsc --init
+tsc --init
 ```
+
 tsconfig.json file
+
 ```
 {
   "compilerOptions": {
@@ -92,50 +120,56 @@ tsconfig.json file
   "exclude": ["**/*.spec.ts"]
 }
 ```
+
 ###### Basics
+
 ```
-$ npm install --save-dev typescript
-$ node_modules/.bin/tsc --init
-$ node --save-dev
+npm install --save-dev typescript
+node_modules/.bin/tsc --init
+node --save-dev
 ```
+
 ### Basic Commands
+
 ```
-$ tsc -v
-$ tsc <file name>
-$ tsc -w
-$ tsc <file name> -w
-$ tsc --init
-$ tsc *.ts -w
-$ tsc --watch
+tsc -v
+tsc <file name>
+tsc -w
+tsc <file name> -w
+tsc --init
+tsc *.ts -w
+tsc --watch
 ```
+
 ### Terms and concepts
+
 - ECMAScript
 - JavaScript
 - TypeScript
 - Transpile
 - Compile
 
-* Data Types
-  * Primitives
+- Data Types
+  - Primitives
     - boolean
     - number
     - string
-  * Special
+  - Special
     - undefined
     - null
     - any
     - unknown
     - never
     - void
-  * Complex
+  - Complex
     - array
     - tuple
     - object
     - enum
-    * Generic
+    - Generic
       - utility
       - custom
-  * Custom
+  - Custom
     - class
     - interface
     - type
@@ -152,35 +186,35 @@ $ tsc --watch
 
 - Shape
 
-* Functions
+- Functions
   - Optional parameter
   - Default argument
   - Return type
   - Signature
-  * Param and return
+  - Param and return
     - Types
     - Type Inference
 
-* Classes
+- Classes
   - Properties
-  * Methods
+  - Methods
     - constructor
-  * Modifier
+  - Modifier
     - protect
     - readonly
     - abstract
-  * Instance
+  - Instance
     - this
-  * Visibility
+  - Visibility
     - public (default)
     - private
     - protected
-  * Virtual attributes
+  - Virtual attributes
     - setter
     - getter
     - accessor
 
-* Interfaces
+- Interfaces
   - Contract | Agreement
   - Attributes
   - Functions
@@ -189,31 +223,31 @@ $ tsc --watch
 
 - Inheritance
 
-* Hierarchi
+- Hierarchi
   - super
   - overwrite
 
 - Encapsulation
 
-* OOP
+- OOP
   - Hierarchi
   - Encapsulation
   - Polymorphism
   - Abstraction
 
-* Decorator
+- Decorator
   - Class
   - Method
   - Property
   - Parameter
 
-* Utility types or helpers
+- Utility types or helpers
   - Partial
   - Required
 
 - Custom Type
 
-* Generic Type
+- Generic Type
   - Data type
   - Function
   - Class
@@ -221,24 +255,26 @@ $ tsc --watch
 
 - Union types
 
-* Modularity
+- Modularity
   - Settings
   - Export
   - Import
 
-* Projects
+- Projects
   - tsconfig
 
-* DOM Manipulation
-  * HTMLElement
+- DOM Manipulation
+  - HTMLElement
     - HTMLParagraphElement
-  * Methods
-    * children
+  - Methods
+    - children
       - HTMLCollection
-    * childNodes
+    - childNodes
       - NodeList
   - The ! non-null assertion operator
   - Type casting
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

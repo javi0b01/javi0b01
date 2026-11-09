@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## JAVASCRIPT
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript and HTML DOM Reference](https://www.w3schools.com/jsref/default.asp)
 - [JavaScript at Microsoft](https://docs.microsoft.com/en-us/javascript/)
@@ -18,12 +23,16 @@
 - [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
 - [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 - [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)
+
 ### Requirements
+
 - A browser or server environment
+
 ### Terms and concepts
-* ECMAScript
-* JavaScript
-* JavaScript uses
+
+- ECMAScript
+- JavaScript
+- JavaScript uses
   - Web language
   - Interactive
   - Validate
@@ -33,8 +42,8 @@
   - Desktop apps
   - Mobile apps
 
-* script
-  * The script tag
+- script
+  - The script tag
     - async
     - defer
   - External file
@@ -44,24 +53,24 @@
   - Keywords
   - Strict mode
   - Sloppy mode
-  * The noscript tag
+  - The noscript tag
 
-* Debugging
+- Debugging
   - ```console```
   - Browser debugging tools
-  * Snippets 
+  - Snippets
     - performance.now
   - debugger
 
-* Statements
+- Statements
   - Values, Operators, Expressions, Keywords, and Comments.
 
-* Expressions
+- Expressions
   - values, variables, and operators, which computes to a value.
 
-* Variables
-  * Stages
-    * Declaration
+- Variables
+  - Stages
+    - Declaration
       - Single
       - Multiple
     - Initializing
@@ -70,14 +79,14 @@
   - Scope
   - Hoisting
   - Context
-  * Coercion
+  - Coercion
     - Implicit
     - Explicit
   - Constants
 
-* Data types
-  * Primitives:
-    * String
+- Data types
+  - Primitives:
+    - String
       - Used with objects
     - Number
     - Boolean
@@ -86,54 +95,54 @@
     - Symbol (Descriptions)
     - BigInt
     - NaN - Not a Number
-  * Non-primitive or Reference Types:
+  - Non-primitive or Reference Types:
     - object (for more complex data structures)
-    * All types of objects
+    - All types of objects
       - All JavaScript values, except primitives, are objects.
-  * Operators
+  - Operators
     - typeof
     - instanceof
 
-* Stack & Heap
-  * Stack
+- Stack & Heap
+  - Stack
     - Store value of primitives types
     - Have space limited
     - Store reference to non primitives types (pointer)
-  * Heap
+  - Heap
     - Store value of non primitives types
 
-* Data structures
-  * Arrays
+- Data structures
+  - Arrays
     - Array of objects
     - Matrix, 2D array or more
-  * Objects (Special non-data)
-    * Propierties
+  - Objects (Special non-data)
+    - Propierties
       - Key, Value
       - getter
       - setter
       - prototype
       - call
       - apply
-    * Tools
+    - Tools
       - freeze
       - seal
-  * Sets
+  - Sets
     - WeakSets
-  * Maps
+  - Maps
     - WeakMaps
-  * Proxies
+  - Proxies
     - Handler
   - Functions (non data structure)
 
-* Operators
+- Operators
   - Unary
   - Binary
   - Operand
-* Operands
-* Operations
+- Operands
+- Operations
 
-* Operators
-  * Arithmetic operators
+- Operators
+  - Arithmetic operators
     - PEMDAS (Parentheses, Exponent, Multiplication, Division, Addition, Subtraction)
   - Increment operators
   - Decrement operators
@@ -151,23 +160,23 @@
   - Type Operators
   - Constructor
 
-* Control structures
+- Control structures
   - Sequential
-  * Conditional
+  - Conditional
     - Boolean logic
     - Comparisons
     - Strict equality check
-    * Truthy
+    - Truthy
       - All values are truthy unless they are defined as falsy.
-    * Falsy
+    - Falsy
       - false, 0, -0, 0n, "", '', ``, null, undefined, NaN and document.all
-    * Statements
+    - Statements
       - if
       - if ... else
       - if ... else if ... else
       - switch
       - Ternary operator
-  * Loops
+  - Loops
     - Do While
     - While
     - For
@@ -177,66 +186,66 @@
     - map
     - filter
     - "own loop"
-    * Iterator object
+    - Iterator object
       - keys
       - values
       - entries
-  * Flow handling
-      - Break
-      - Continue
+  - Flow handling
+    - Break
+    - Continue
 
-* Errors
-  * Anatomy (is an object)
-    * name/type
+- Errors
+  - Anatomy (is an object)
+    - name/type
       - SyntaxError
-      * Logic errors
+      - Logic errors
         - ReferenceError
         - TypeError
-    * message
+    - message
       - Describe causing
     - file name
     - row or line
     - column or character
     - stack trace
-  * Error handling
+  - Error handling
     - Try ... Catch ... Finally
     - Throw
 
-* Destructuring
+- Destructuring
   - Assign by Destructuring
   - Destructuring, Functions, Arrays and Objects
 
-* Objects
-  * Basics
+- Objects
+  - Basics
     - What are they?
     - Syntax
     - Definition (literals, constructor)
-  * Propierties
+  - Propierties
     - Attributes
     - Methods
   - Dot notation
   - Square bracket notation
   - this keyword (context)
-  * Binding
+  - Binding
     - Implicit
     - Explicit
     - New
     - Window
-  * Object literal (it is the opposite of destructuring)
+  - Object literal (it is the opposite of destructuring)
     - Static and nonreusable
-  * Object constructor
+  - Object constructor
     - Dynamic and reusable
   - Static object
 
-* this keyword (context)
+- this keyword (context)
   - this context: is a reference according to the context
   - Functions needs access to runtime context.
   - "this" maps to relevant context at runtime
-  * What is "this"?
+  - What is "this"?
     - In JavaScript, this keyword refers to an object.
     - Which object depends on how this is being invoked (ised or called).
-    * The this keyword refers to different objects depending on how it is used:
-      * In an object method:
+    - The this keyword refers to different objects depending on how it is used:
+      - In an object method:
         - In a regular function, this refers to the object.
         - In a arrow function, this refers to the global object.
       - Alone, this refers to the global object.
@@ -246,14 +255,15 @@
       - Methods like "call" "apply" and "bind" can refer this to any object.
   - this is not a variable, it is a keyword.
 
-* About the global object
+- About the global object
   - Default to "window" object in browser runtime
   - Default to "global" object in Node.js runtime
   - use "globalThis" keyword to reference the global object consistenly
 
-* Built-in objects
-  * Basics
-    - The constructor property returns the function that created the JavaScript object prototype.
+- Built-in objects
+  - Basics
+    - The constructor property returns the function that created the JavaScript
+      object prototype.
     - prototype allows you to add new properties and methods to JavaScript objects.
     - prototype is a property available with all JavaScript objects.
   - String
@@ -268,7 +278,7 @@
   - Function
   - Promise
 
-* String
+- String
   - Single, double and backtick quotes
   - Scaping characters
   - Case sensitive
@@ -278,20 +288,20 @@
   - Methods
   - Concatenating strings
 
-* Number
+- Number
   - Properties
   - Methods
   - Convert string to number
 
-* Boolean
-  * Truthy
+- Boolean
+  - Truthy
     - All values are truthy unless they are defined as falsy.
-  * Falsy
+  - Falsy
     - false, 0, -0, 0n, "", '', ``, null, undefined, NaN and document.all
   - Properties
   - Methods
 
-* Array
+- Array
   - Element
   - Index
   - Length
@@ -299,17 +309,17 @@
   - Properties
   - Methods
 
-* Object
+- Object
   - Properties
   - Methods
 
-* Math
-  * Properties
+- Math
+  - Properties
     - PI
-  * Methods
+  - Methods
     - round
 
-* Date
+- Date
   - Properties
   - Methods
   - One central object, contain both Date and time
@@ -317,20 +327,20 @@
   - month counting starts with zero, Sunday = 0
   - 24 hour clock
 
-* Set
+- Set
   - Properties
   - Methods
 
-* Map
+- Map
   - Properties
   - Methods
 
-* Promise
+- Promise
   - Properties
   - Methods
 
-* JavaScript Object Notation or JSON
-  * Basics
+- JavaScript Object Notation or JSON
+  - Basics
     - What is it?
     - JSON format
     - Serialize Object to JSON (Stringify)
@@ -344,8 +354,8 @@
 - REST parameters (to received)
 - Spread operator (to send)
 
-* Functions
-  * Basics
+- Functions
+  - Basics
     - What are they?
     - Syntax
     - Definition
@@ -353,21 +363,21 @@
     - Naming
     - Parameters
     - Return
-  * Function
-    * With arguments
+  - Function
+    - With arguments
       - Parameter list
-    * Without arguments
+    - Without arguments
       - No parameter list
   - Implicit return or default return
-  * Built-in
-    * Interaction methods I/O
+  - Built-in
+    - Interaction methods I/O
       - prompt
       - confirm
       - alert
       - write
       - console
   - Function declaration (search in the same object, in the current object)
-  * Function expression
+  - Function expression
     - Regular function
     - Arrow function (search in the global window)
   - Call function
@@ -387,13 +397,13 @@
   - Pure function
   - Methods
 
-* Hoisting
+- Hoisting
   - hoist variable declaration (not initialization)
   - hoist functions declared
   - Register/Record
   - Execute
 
-* Scope
+- Scope
   - Lexical scoping or static scoping
   - Scope chain
   - Global
@@ -401,17 +411,18 @@
   - Block
   - Module
 
-* Call Stack
+- Call Stack
   - LIFO (Last In First Out)
   - Stacktrace
-  * Execution contexts
+  - Execution contexts
     - Global execution context
     - Function execution context
 
-* Closures
-  - retorna una función desde otra función, con acceso al entorno de variables 
+- Closures
+  - retorna una función desde otra función, con acceso al entorno de variables
   de un ámbito exterior
   - Ex:
+
 ```
 function IamAclosure() {
   const varLocal = 'xyz'
@@ -423,24 +434,24 @@ function IamAclosure() {
 const closure = IamAclosure()
 ```
 
-* IIFE or Inmediately Invoked Function Expression
+- IIFE or Inmediately Invoked Function Expression
 
-* Callback
+- Callback
   - Synchronous
   - Asynchronous
 
-* Prototypes
-  * Constructor object or constructor function
+- Prototypes
+  - Constructor object or constructor function
     - Dynamic and reusable
   - Object prototype (better with function declaration for the scope)
   - Prototype chain
   - Prototypical inheritance
 
-* Syntactic sugar
+- Syntactic sugar
   - Prototypes - Classes
 
-* OOP
-  * Classes
+- OOP
+  - Classes
     - Declaration class
     - Expression class
     - Attributes or Properties
@@ -458,7 +469,7 @@ const closure = IamAclosure()
     - Polymorphism
   - Maps
 
-* strict mode
+- strict mode
   - avoid create global variables accidentally
   - readonly attributes
   - objects not extensibles
@@ -470,12 +481,12 @@ const closure = IamAclosure()
   - more keywords
   - free functions
 
-* Prototype
+- Prototype
   - Prototypical inheritance
 
-* Regular Expressions
+- Regular Expressions
 
-* Modules
+- Modules
   - module
   - nomudule
   - Import
@@ -483,13 +494,13 @@ const closure = IamAclosure()
   - Export default
   - Alias
 
-* Code ordering
+- Code ordering
   - Import modules
   - Variables
   - Functions
   - Executables
 
-* Timers
+- Timers
   - TimeOut
   - ClearTimeOut
   - TimeInterval
@@ -498,14 +509,14 @@ const closure = IamAclosure()
 - Synchronous
 - Asynchronous
 
-* Asynchronous
-  * Certain operations can take a while
+- Asynchronous
+  - Certain operations can take a while
     - File I/O
     - REST calls
     - Database operations
     - Complex computations
   - I/O
-  * Single thread
+  - Single thread
     - One worker process
     - One activity at a time
     - No other tasks can execute
@@ -519,57 +530,57 @@ const closure = IamAclosure()
   - Blocking
   - Non-blocking
 
-* Callbacks
+- Callbacks
   - Callback hell, cascading becomes an issue
 
-* Promises
+- Promises
   - Pending
   - Fulfilled
   - Rejected
-  * Resolve
+  - Resolve
     - Then
-  * Reject
+  - Reject
     - Catch
-  * Methods
+  - Methods
     - all
 
-* Async/Await
+- Async/Await
   - Make asynchronous code look synchronous
   - Recomended use Try/Catch
 
-* Recursive
-* Trampoline (technique)
-* Closure
+- Recursive
+- Trampoline (technique)
+- Closure
 
-* Iterables & Iterators
+- Iterables & Iterators
   - next
   - done
 
-* Generators
+- Generators
   - yield
 
-* Async functions
+- Async functions
 
-* Reactivity
-  * State (the data at a specific time)
-    * UI based on state
+- Reactivity
+  - State (the data at a specific time)
+    - UI based on state
       - change data, then, change content (reder)
-  * Component (visual pattern, independent code snippet)
+  - Component (visual pattern, independent code snippet)
     - reusable
     - unique function
     - independent
     - self-contained
 
-* Window
+- Window
   - This, Self and Window
   - Global
-  * Scope
+  - Scope
     - Call
     - Apply
     - Bind
 
-* API (Application Programming Interface)
-  * Web APIs
+- API (Application Programming Interface)
+  - Web APIs
     - Console
     - DOM (Document Object Model)
     - CSSOM (CSS Object Model)
@@ -577,24 +588,24 @@ const closure = IamAclosure()
     - Fetch
   - External APIs
 
-* API's Architectures
+- API's Architectures
   - REST (Representational State Transfer)
   - SOAP (Simple Object Access Protocol)
 
-* DOM (Document Object Model)
+- DOM (Document Object Model)
   - Created by the browser
-  * "document" object
+  - "document" object
     - Properties
     - Methods
   - Allow interacting with the browser
 
-* DOM Nodes
-  * Node is an object with properties and methods
-    * Properties
+- DOM Nodes
+  - Node is an object with properties and methods
+    - Properties
       - Like ids, classes, styles, texts, etc
-    * Methods
+    - Methods
       - For finding/adding/removing/altering or handle on manipulating
-  * tree nodes
+  - tree nodes
     - "html" is the root node
   - nodelist
   - array of nodes
@@ -602,122 +613,124 @@ const closure = IamAclosure()
   - Traversing
   - Fragments
 
-* DOM Events
+- DOM Events
   - Allow handle on manipulating the DOM dynamically, or on demand
   - Listeners
   - Remove
 
-* DOM Event flow
+- DOM Event flow
   - Propagation
   - Bubble
   - Capture
   - Stop propagation or stop bubbling
   - preventDefault
 
-* DOM Event delegation
+- DOM Event delegation
 
-* Responsible and Responsive
-* User Agent
+- Responsible and Responsive
+- User Agent
 
-* CORS (Cross-Origin Resource Sharing)
-* HTTP response status codes
-* HTTP verbs
+- CORS (Cross-Origin Resource Sharing)
+- HTTP response status codes
+- HTTP verbs
 
-* XML
-* JSON
-* AJAX
+- XML
+- JSON
+- AJAX
   - ActiveXObject
   - XMLHTTPRequest
-* Fetch
+- Fetch
   - With Async Await
-* Axios
+- Axios
   - With Async Await
 
-* SPA (Single Page Application)
+- SPA (Single Page Application)
 
-* PWA (Progresive Web Application)
+- PWA (Progresive Web Application)
   - Fast
   - Instalable
   - Offline support
-  * Requeriments
+  - Requeriments
     - Manifest
     - Domain
     - Fetch event listener
 
-* Service Workers
+- Service Workers
   - Base of the PWA
   - Working offline
   - Not access the DOM
   - Automatly load
   - Work without interferir
 
-* Functional JS
+- Functional JS
   - Inmutability
   - Separate data functions
   - First-class functions
 
-* Higer order functions
-* Pure function
-* Closure
-* Partials, Currying
-* Composition
+- Higer order functions
+- Pure function
+- Closure
+- Partials, Currying
+- Composition
 
-* Engine
+- Engine
   - Source
   - AST (Abstract Syntax Tree)
   - Bytecode
   - Machinecode
 
-* Event loop
-  * Stack FILO
+- Event loop
+  - Stack FILO
     - push
     - pop
   - Heap
-  * Queue FIFO
+  - Queue FIFO
     - Scheduled tasks (e.g. setTimeout)
     - Microtask queue (e.g. Promises)
     - task queue
 
-* Design Patterns
-  * Create code
+- Design Patterns
+  - Create code
     - Class Pattern
     - Constructor Pattern
     - Singleton Pattern
     - Factory Pattern
-  * Organize code
+  - Organize code
     - Module Pattern
     - Mixin Pattern
     - Namespace Pattern
     - Mediator Pattern
 
-* Hashing
+- Hashing
   - Auth
   - bcrypt
 
-* Tools
+- Tools
   - Babel
   - ESLint
   - Webpack
   - Gulp
   - Style guide (Standard, Google, Airbnb)
 
-* Testing
+- Testing
   - Test Driven Development or TDD
-  * Techniques
+  - Techniques
     - Integration
     - End to End
     - Unit
     - Static
-  * Tools
+  - Tools
   - Jest
   - Cypress
 
-* Packages are also called dependencies or modules
+- Packages are also called dependencies or modules
   - npm or Node Package Manager
-  * package.json file
+  - package.json file
     - Metadata
     - Dependencies and devDependencies
     - Scripts
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2024  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

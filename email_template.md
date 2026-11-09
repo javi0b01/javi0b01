@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## EMAIL TEMPLATE
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,9 +11,13 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 -[How to Code HTML Emails for Any Device](https://www.campaignmonitor.com/dev-resources/guides/coding-html-emails/)
+
 ### Terms and concepts
+
 - Email HTML vs Web HTML
 - Email client
 - Email template
@@ -23,6 +30,8 @@
 - Don’t use forms
 - Don’t use Flash
 - Use with caution video
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2023  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

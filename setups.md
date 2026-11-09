@@ -1,20 +1,29 @@
 # :memo: Notes
+
 ## SETUPS
+
 ### Mapping of IP addresses to URLs
+
 /etc/hosts
+
 ```
-127.0.0.1	localhost
-::1		localhost
-# 127.0.1.1	pop-os.localdomain	pop-os
-# xxx.xxx.xxx.xxx	subdomain.domain.com
+127.0.0.1 localhost
+::1  localhost
+# 127.0.1.1 pop-os.localdomain pop-os
+# xxx.xxx.xxx.xxx subdomain.domain.com
 ```
+
 ### JSDoc
+
 Install
+
 ```
-$ yarn add jsdoc
-$ npm i jsdoc
+yarn add jsdoc
+npm i jsdoc
 ```
+
 jsdoc.json file
+
 ```
 {
   "plugins": [],
@@ -35,12 +44,16 @@ jsdoc.json file
   }
 }
 ```
+
 Run
+
 ```
-$ jsdoc -c jsdoc.json
-$ npx jsdoc -c jsdoc.json
+jsdoc -c jsdoc.json
+npx jsdoc -c jsdoc.json
 ```
+
 package.json file
+
 ```
 {
   "scripts": {
@@ -48,15 +61,21 @@ package.json file
   }
 }
 ```
+
 .vscode/settings.json file
+
 ```
 {
   "javascript.implicitProjectConfig.checksJs": true
 }
 ```
+
 ---
+
 ### Visual Studio Code - CUSTOM settings.json
+
 Current
+
 ```
 {
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
@@ -120,18 +139,24 @@ Current
   "workbench.startupEditor": "none"
 }
 ```
+
 Unused
+
 ```
 "svelte.enable-ts-plugin": true
 "vsicons.dontShowNewVersionMessage": true
 "importHelpers": true
 "console-ninja.featureSet": "Community"
 ```
+
 ---
+
 ### Editor Configuration
-- https://editorconfig.org/
+
+- <https://editorconfig.org/>
 
 editorconfig file
+
 ```
 root = true
 [*]
@@ -150,9 +175,13 @@ quote_type = double
 [*.md]
 trim_trailing_whitespace = false
 ```
+
 ---
+
 ### VI
+
 .vimrc file
+
 ```
 set encoding=utf-8
 set number
@@ -170,31 +199,42 @@ augroup C_Python_JavaScript_Settings
         autocmd fileType html source ~/vi-settings/html.vi
 augroup END
 ```
+
 #### Default
+
 ```
 set tabstop =2
 set softtabstop =2
 set shiftwidth =2
 set expandtab
 ```
+
 #### Python
+
 ```
 set tabstop =4
 set softtabstop =4
 set shiftwidth =4
 set expandtab
 ```
+
 #### C
+
 ```
 set cindent
 ```
+
 ---
+
 ### Shell
+
 #### Betty linter
+
 - Clone the [Betty repo](https://github.com/holbertonschool/Betty)
 - ```cd``` into the Betty directory
 - Install the linter with ```sudo ./install.sh```
 - New file called ```betty```, and copy the script below:
+
 ```
 #!/bin/bash
 # Simply a wrapper script to keep you from having to use betty-style
@@ -217,11 +257,24 @@ for argument in "$@" ; do
     ${BIN_PATH}/${BETTY_DOC} "$argument"
 done
 ```
-- Once saved, exit file and change permissions to apply to all users with ```chmod a+x betty```
-- Move the ```betty``` file into ```/bin/``` directory or somewhere else in your ```$PATH``` with ```sudo mv betty /bin/```
+
+- Once saved, exit file and change permissions to apply to all users with
+  ```chmod a+x betty```
+- Move the ```betty``` file into ```/bin/``` directory or somewhere else in
+  your ```$PATH``` with ```sudo mv betty /bin/```
 - You can now type ```betty <filename>``` to run the Betty linter!
+
 ###### :globe_with_meridians: Social
+
 [GitHub](https://github.com/javi0b01/)  |  [Linkedin](https://www.linkedin.com/in/javi0b01/)
 <!--
-[Website](https://.../)  |  [Twitter](https://twitter.com/javierandresgp0)  |  [freeCodeCamp](https://www.freecodecamp.org/javierandresgp)  |  [HackerRank](https://www.hackerrank.com/javierandresgp)  |  |  [Reddit](https://www.reddit.com/user/javierandresgp0)  |  [StackOverflow](https://stackoverflow.com/users/13728583/javierandresgp)  |  [Medium](https://medium.com/@javierandresgp)  |  [Quora](https://es.quora.com/profile/Javier-Andr%C3%A9s-9)  |  [Meetup](https://www.meetup.com/es/members/305321275/)  |  [Facebook](https://www.facebook.com/javierandresgp0/)  |  [Instagram](https://www.instagram.com/javierandresgp/)
+[Website](https://.../)  |  [Twitter](https://twitter.com/javierandresgp0)  |
+[freeCodeCamp](https://www.freecodecamp.org/javierandresgp)  |
+[HackerRank](https://www.hackerrank.com/javierandresgp)  |  |
+[Reddit](https://www.reddit.com/user/javierandresgp0)  |
+[StackOverflow](https://stackoverflow.com/users/13728583/javierandresgp)  |
+[Medium](https://medium.com/@javierandresgp)  |
+[Quora](https://es.quora.com/profile/Javier-Andr%C3%A9s-9)  |
+[Meetup](https://www.meetup.com/es/members/305321275/)  |
+[Facebook](https://www.facebook.com/javierandresgp0/)  |  [Instagram](https://www.instagram.com/javierandresgp/)
 -->

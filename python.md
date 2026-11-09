@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## PYTHON
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [Python](https://www.python.org/)
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [Python Documentation contents](https://docs.python.org/3/contents.html)
@@ -17,11 +22,15 @@
 - [PEP - Python Enhancement Proposals](https://www.python.org/dev/peps/)
 - [Python Package Index](https://pypi.org/)
 - [Tools and Features for Python Development](https://www.jetbrains.com/research/python-developers-survey-2017/#tools-and-features)
+
 ##### Style
+
 - PEP8
 - Pycodestyle
 - Black formatter
+
 ##### Zen
+
 ```
 The Zen of Python, by Tim Peters
 
@@ -45,61 +54,79 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
+
 ### Setup
+
 Install ENV as package for creating virtual environment
+
 ```
-$ sudo apt install python3-dev python3-venv
+sudo apt install python3-dev python3-venv
 ```
+
 Install VIRTUALENV as package for creating virtual environment...
 Install PIPENV as package for creating virtual environment...
 
 ---
 
 Use standard venv + pip
+
 ```
-$ python3 -m venv .venv
-$ source .venv/bin/activate
-$ pip install -e ".[dev]"
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
 ```
 
 ---
 
 Install UV
+
 ```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 Test UV (restart terminal)
+
 ```
-$ uv --version
+uv --version
 ```
 
 After that, from the project root:
+
 ```
-$ uv venv
-$ source .venv/bin/activate
-$ uv sync --extra dev
-$ uv sync
+uv venv
+source .venv/bin/activate
+uv sync --extra dev
+uv sync
 ```
 
 ### Setup Virtual Environment
+
 Create virtual environment
+
 ```
-$ python -m venv <virtual_environment_name>
+python -m venv <virtual_environment_name>
 ```
+
 Activate virtual environment
+
 ```
-$ source <virtual_environment_name>/bin/activate
+source <virtual_environment_name>/bin/activate
 ```
+
 Deactivate virtual environment
+
 ```
-$ deactivate
+deactivate
 ```
+
 ### COMMANDS
+
 ```
-$ python --version
+python --version
 ```
+
 ### Terms and concepts
+
 - Python REPL (Read-Evaluate-Print-Loop)
 - IDLE (Integrated Development and Learning Environment)
 - Python interpreter
@@ -108,26 +135,26 @@ $ python --version
 - PIP
 - Environment
 
-* Basic syntax
+- Basic syntax
   - Keywords
   - Indentation
-  * Comments
+  - Comments
     - Inline
     - Multiline
 
-* Variable
-  * Declaring
+- Variable
+  - Declaring
     - Single
     - Multiple
   - Hierarchy
   - Scope
 
-* Data types
-  * Numbers
+- Data types
+  - Numbers
     - Integers
     - Floating-Point
     - Complex
-  * Strings
+  - Strings
     - escape characters
     - concatenation
     - indexing
@@ -136,12 +163,12 @@ $ python --version
   - Booleans
   - Type conversion
 
-* Operators
-  * Arithmetics
+- Operators
+  - Arithmetics
     - PEMDAS (Parentheses, Exponent, Multiplication, Division, Addition, Subtraction)
   - Assignment
   - Comparison or relational
-  * Logical
+  - Logical
     - Truth table
     - Priority (not, and, or, left to right)
   - Identity
@@ -149,12 +176,12 @@ $ python --version
   - Bitwise
   - Ternary
 
-* Control flow
-  * Conditionals
+- Control flow
+  - Conditionals
     - if
     - if ... else
     - if ... elif ... else
-  * Loops
+  - Loops
     - for in
     - while
     - while else
@@ -164,9 +191,9 @@ $ python --version
   - break
   - Nested
 
-* Data Structures
+- Data Structures
   - Variables
-  * Lists
+  - Lists
     - Matrix, 2D list or more
   - Tuples
   - Dictionaries
@@ -174,7 +201,7 @@ $ python --version
   - Extra
     - Arrays
 
-* Inmutable
+- Inmutable
   - str
   - int
   - float
@@ -182,30 +209,30 @@ $ python --version
   - bytes
   - tuple
 
-* Mutable
+- Mutable
   - list
   - dictionary
   - set
 
-* Functions
-  * Parameters
+- Functions
+  - Parameters
     - *args
     - **kwargs
   - Arguments
-  * Return
+  - Return
     - Reference
     - Value
   - Nested
   - Scope
   - Lambda
-  * Recursion
+  - Recursion
     - Base case
     - Recursive case
-  * Built-in
-    * Interaction I/O
+  - Built-in
+    - Interaction I/O
       - input()
       - print()
-    * Methods
+    - Methods
       - String
       - List
       - Tuple
@@ -213,13 +240,13 @@ $ python --version
       - Set
     - Common
 
-* Decorators
+- Decorators
 
-* Errors and Exceptions
+- Errors and Exceptions
   - Errors
   - Exceptions
   - EOL (End Of line)
-  * Handling Exceptions
+  - Handling Exceptions
     - try
     - except
     - finaly
@@ -229,7 +256,7 @@ $ python --version
     - try ... except ... else
     - try ... except ... else ... finaly
 
-* Generators
+- Generators
   - yield
   - yield from
   - next
@@ -240,19 +267,19 @@ $ python --version
 - Magic functions
 - Global interpreter lock or GIL
 
-* POO
-  * Object
+- POO
+  - Object
     - Properties/Attributes
     - Methods/Actions
     - State
-  * Class
-    * Constructor
+  - Class
+    - Constructor
       - Properties
       - Initial state
     - Methods
   - Instance
-  * Modularity
-    * Modules
+  - Modularity
+    - Modules
       - Built-in
       - External
       - Own
@@ -260,58 +287,58 @@ $ python --version
     - import ... as ...
     - from ... import
     - Packages
-    * Building and Distributing Packages
+    - Building and Distributing Packages
       - setup
       - sdist
       - install
       - uninstall
-  * Encapsulation
+  - Encapsulation
     - __
-  * Inheritance
+  - Inheritance
     - Superclass
     - Subclass
     - Overwrite methods
     - Multi inheritance
   - Polymorphism
 
-* Data persistence
-  * External files
-    * io module
+- Data persistence
+  - External files
+    - io module
       - Creation, Opening, Manipulation, Closing.
       - Pointer
     - Reading files
     - Writing files
-  * Files
+  - Files
     - Binary files
     - JSON files
   - Databases
 
-* Handle data files
+- Handle data files
   - Data serialization
   - Data deserialization
-  * pickle module
+  - pickle module
     - dump
     - load
 
-* Async IO
+- Async IO
   - Async
   - Await
   - asyncio
 
-* Asynchronous Comprehensions
+- Asynchronous Comprehensions
   - asynchronous generator
   - async comprehensions
   - type-annotate generators
 
-* Graphic User Interface
+- Graphic User Interface
   - tkinter module
 
-* Special methods or magic functions
+- Special methods or magic functions
   - __init__
   - __str__
-  -  ...
+  - ...
 
-* Some external libraries
+- Some external libraries
   - smtplib
   - numpy
   - pandas
@@ -327,4 +354,5 @@ $ python --version
 
 ## Author
 
-Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
+Built by [JAVI](https://github.com/javi0b01/) © 2020 - 2026 | Found a bug or
+have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

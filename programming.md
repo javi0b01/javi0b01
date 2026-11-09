@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## PROGRAMMING
+
 ### Learn
+
 1. What and why
 2. What do
 3. Why use
@@ -8,10 +11,15 @@
 5. Concepts
 6. Code samples
 7. API documentation
+
 ### Resources
+
 - [What is software development?](https://www.ibm.com/topics/software-development)
+
 ### Terms and concepts
+
 Index
+
 - [Problem Solving](#problem-solving)
 - [Algorithm](#algorithm)
 - [Data Types](#data-types)
@@ -24,15 +32,18 @@ Index
 - [Programming Logic](#programming-logic)
 - [Programming Paradigms](#programming-paradigms)
 - [SOLID Principles](#solid-principles)
-* [Architecture Patterns](#architecture-patterns)
+- [Architecture Patterns](#architecture-patterns)
   - [Project Structure](#project-structure)
+
 - [Design Patterns](#design-patterns)
 - [UI Design Methodology](#ui-design-methodology)
 - [Cloud](#cloud)
 
 ***SDLC*** (Software Development Life Cycle)  
-SDLC is the structured process that ensures software is high quality, cost-effective, and delivered on time.  
-* SDLC
+SDLC is the structured process that ensures software is high quality,
+cost-effective, and delivered on time.  
+
+- SDLC
   - Planning
   - Requirement Analysis
   - Design
@@ -40,29 +51,33 @@ SDLC is the structured process that ensures software is high quality, cost-effec
   - Testing
   - Deployment
   - Maintenance
-* Popular SDLC Models
+- Popular SDLC Models
   - Waterfall → Linear, step-by-step (finish one phase before the next).
   - Agile → Iterative, flexible, with small sprints and continuous feedback.
   - Spiral → Risk-driven, combines prototyping and iterative improvements.
   - V-Model → Focus on testing at each stage.
 
-* SRS (Software Requirements Specification)
+- SRS (Software Requirements Specification)
   - What the system should do.
 
-* DDS (Design Document Specification) sometimes also called (Detailed Design Specification)
+- DDS (Design Document Specification) sometimes also called (Detailed Design Specification)
   - How the system will do it (design details)
 
 ***CRUX*** (Core Challenge | Critical Problem)  
 Crux refers to the core challenge or critical problem  
-Identifying the crux helps developers focus on solving the most impactful issues early in the development process.
+Identifying the crux helps developers focus on solving the most impactful
+issues early in the development process.
 
 #### Problem Solving
-Problem solving is the core thing software developers do.  The programming 
+
+Problem solving is the core thing software developers do.  The programming
 languages and tools they use are secondary to this fundamental skill.
+
 1. Understand the problem
 2. Plan
 3. Divide and conquer
-* Resources
+
+- Resources
   - Basic paper and pencil
   - Diagrams
   - Questions
@@ -70,50 +85,54 @@ languages and tools they use are secondary to this fundamental skill.
   - Sketch
   - Algorithm
   - Psudocode
+
 #### Algorithm
-* Algorithms
+
+- Algorithms
   - Independent
   - Definite
   - Precise
   - Finite
   - Input specified
   - Output specified
-* Types of algorithms
+- Types of algorithms
   - Numeric
   - Not numeric
   - Graphic: Flowchart, Nassi-Schneiderman diagram
   - Not graphic: Pseudocode
-* Flowchart
+- Flowchart
   - Analysis
-  * Construction
+  - Construction
     - Start, step by step and End
     - ANSI standard
     - Order
     - Symbols
     - Flow lines
   - Desktop test
-* Nassi-Schneiderman diagram
+- Nassi-Schneiderman diagram
   - Analysis
-  * Construction
+  - Construction
     - Start, step by step and End
     - Order
     - Symbols
     - Flow
   - Desktop test
-* Pseudocode
+- Pseudocode
   - Analysis
-  * Construction
-      - Start, step by step and End
-      - Order
-      - Line by line
+  - Construction
+    - Start, step by step and End
+    - Order
+    - Line by line
   - Desktop test
+
 #### Data Types
+
 - boolean, int, float, double, char, string
-* Only type, not data type
+- Only type, not data type
   - Void
-* Identifiers
+- Identifiers
   - Names to store data types
-* Units of information
+- Units of information
   - Bit, A binary digit, Zero or One
   - Crumb, two bits or quarter byte
   - Nibble, four bits or nybble or half a byte
@@ -128,18 +147,20 @@ languages and tools they use are secondary to this fundamental skill.
   - Zettabyte, 1024 EB
   - Yottabyte, 1024 ZB
   - Memory address
+
 #### Store Data
-* Data structures
-  * Simple or Primitive
-    * Variable
+
+- Data structures
+  - Simple or Primitive
+    - Variable
       - type
       - name
       - value or reference
     - Constant
-  * Non primitive or Structured
-    * Lineal
+  - Non primitive or Structured
+    - Lineal
       - stack, queue, list, array, linked list, hash table
-    * Non lineal
+    - Non lineal
       - tree, grafo, dictionary
   - Dynamic
   - Static
@@ -147,15 +168,17 @@ languages and tools they use are secondary to this fundamental skill.
   - Declaration
   - Assignment
   - Scope
-  * Efficiency
+  - Efficiency
     - Searching algorithms
     - Sorted
     - Unsorted
     - Worst case scenario O(n), O(log n)
     - Average scenario O(n/2), O(log n)
+
 #### Operations
+
 - Operands
-* Operators
+- Operators
   - Arithmetics
   - Assignment
   - Comparison
@@ -168,18 +191,20 @@ languages and tools they use are secondary to this fundamental skill.
   - Identity
   - Membership
   - Bitwise
+
 #### Flow
+
 - Sequential
-* Selective
-  * Control flow
+- Selective
+  - Control flow
     - Conditionals
     - Loops
     - Flow handling
-* Functions
+- Functions
   - Parameter (variable)
   - Argument (value)
   - Return value
-  * Naming a function
+  - Naming a function
     - "show…" usually show something.
     - "get…" return a value.
     - "calc…" calculate something.
@@ -188,55 +213,62 @@ languages and tools they use are secondary to this fundamental skill.
     - "check…" check something and return a boolean.
     - "verb…" make something, etc.
   - Scope
-  * Recursion
+  - Recursion
     - Base case
     - Recursive case
-* Errors
-  * Understanding errors
+- Errors
+  - Understanding errors
     - Syntax error
     - Runtime error
     - Logic error
   - Resolving errors
-* Resolving errors
+- Resolving errors
   - Read the error carefully
-  * Debugger
+  - Debugger
     - Version manager
     - Run program frequently
     - Breakpoint debugging
     - Commenting
   - External resources (Search, forum, etc)
+
 #### Clean Code
+
 - Logic before coding
 - Writing clean code
 - Consistency
 - Indentation
 - Line length
-* Naming things
+- Naming things
   - Variables with a noun or adjetive
   - Functions with a verb
-* Comments
+- Comments
   - Explanatory
   - Avoid abusing
+
 - Short functions
 - Respecting standards in use
 - Avoid indiscriminate mixing of coding languages
 - Caution with imports
 - DRY (Don't Repeat Yourself)
 - Self-explanatory program code, if it is not possible then attach comments.
-* Pure function
-  - It minds its own business. It does not change any objects or variables that existed before it was called.
-  - Same inputs, same output. Given the same inputs, a pure function should always return the same result.
+- Pure function
+  - It minds its own business. It does not change any objects or variables that
+    existed before it was called.
+  - Same inputs, same output. Given the same inputs, a pure function should
+    always return the same result.
+
 #### Software
+
 - Operating systems
 - Applications
 - Programs
-* Program
+- Program
   - Programming
     - Modular programming
     - Structured programming
   - Programmer
   - Programming languages
-* Programming languages
+- Programming languages
   - Codification
   - Source code
   - Machine language
@@ -247,73 +279,82 @@ languages and tools they use are secondary to this fundamental skill.
   - Keywords
   - Translators
   - Instructions
-* Translator
+- Translator
   - Compiler
   - Interpeter
-* Instructions
+- Instructions
   - Input
   - Output
   - Calculation
   - Of control
-* Statements
+- Statements
   - Values, Operators, Expressions, Keywords, Comments.
-* Expressions
+- Expressions
   - Values, variables, and operators, which computes to a value.
-* Architecture
+- Architecture
   - Monolithic
   - Microservices
   - Single Source Of Truth
 
-* Web Site
+- Web Site
   - Landing Page, Web Page, Web Site
   - SEO
   - Públic
   - Fast
   - Static
-* Web Application
+- Web Application
   - Private
   - Logic / Functionality
   - Dynamic
+
 - Leads
 - Crawlers
+
 #### Software Engineering
-* Software Life Cicle
-  * Analysis
+
+- Software Life Cicle
+  - Analysis
     Requirements Specification
-  * Design
+  - Design
     - Set of classes (OOP)
-  * Coding
+  - Coding
     - Implement design
-  * Testing
+  - Testing
     - Run program
     - Unit testing (OOP)
     - Integration testing (OOP)
-    * Debugging
+    - Debugging
       - Eliminate programming error
-  * Operation
+  - Operation
     - Use
     - Software maintenance
+
 - Well-designed and -constructed software is easy to maintain.
 - It is important to follow the standard naming convention and best practices.
 - Software maintenance is easier with easy-to-understand programs.
-* SDLC (Software Development Life Cycle)
+- SDLC (Software Development Life Cycle)
   1. Planning ...What do we want to build and why?
-  2. Requirement Analysis ...What should the software do? SRS (Software Requirements Specification)
-  3. Design ...How will the system look and work internally? DDS (Design/Detail Document Specification)
+  2. Requirement Analysis ...What should the software do? SRS (Software
+     Requirements Specification)
+  3. Design ...How will the system look and work internally? DDS (Design/Detail
+     Document Specification)
   4. Implementation (Coding/Development) ...Let's build it!
   5. Testing ...Does it work as expected?
   6. Deployment ...Now the users can use it.
   7. Maintenance ...Keep it running and improving.
-* SDLC Models
+- SDLC Models
   - Waterfall
   - Agile
   - Spiral
   - V-Model
 
-SDLC is the structured process that ensures software is **high quality, cost-effective, and delivered on time**.
+SDLC is the structured process that ensures software is **high quality,
+cost-effective, and delivered on time**.
 
 ---
+
 #### Introduction to Programming and Computer Science
+
 - Introduction
 - What is programming?
 - How do we write code?
@@ -335,40 +376,44 @@ SDLC is the structured process that ensures software is **high quality, cost-eff
 - What is pseudocode?
 - Choosing the right language?
 - Applications of programming
+
 ---
+
 #### Programming Logic
-* Programming
+
+- Programming
   - What
   - Why
   - How
+
 - Human language
   - Idioms
   - Pseudocode
   - Diagrams
   - Desktop testing
 - Machine language
-* Programming language
+- Programming language
   - High level
   - Low level
-* Algorithm
+- Algorithm
   - Start
   - Input
-  * Steps
-    * Process
+  - Steps
+    - Process
       - Operations
       - Conditions
       - Loops
   - Output
   - End
-* Data or Information
+- Data or Information
   - Datum
-* Data types
-  * Generics
+- Data types
+  - Generics
     - Integer
     - Float or Real
     - Logic or Boolean
     - Character / Characters
-* Variables
+- Variables
   - Naming
   - Declaration
   - Initialization
@@ -377,28 +422,29 @@ SDLC is the structured process that ensures software is **high quality, cost-eff
   - Write
   - Read and Write
   - Constants
+
 - Input
 - Output
 - Process
-* Operations
-* Operators
+- Operations
+- Operators
   - Assignment
   - Arithmetic
   - Relational
   - Logics
-* Conditional
+- Conditional
   - if
   - if...else
   - Nesting or Multiple
-* Loop or Bucle or Cicle or Repetition
+- Loop or Bucle or Cicle or Repetition
   - for
   - while
-  * Base condition or Control or exit condition
+  - Base condition or Control or exit condition
     - Count
     - Guard
   - Infinite
   - At least once
-* Arrays
+- Arrays
   - Unidimensional or Vector
   - Multi-Dimensional or Matriz
   - Index
@@ -406,44 +452,50 @@ SDLC is the structured process that ensures software is **high quality, cost-eff
   - Length
   - Access the elements
   - Iterate or Go through
-* Subprograms
+- Subprograms
   - Procedural
   - Functions
+
 #### Programming Paradigms
+
 - Paradigm
-* Imperative programming paradigm
+- Imperative programming paradigm
   - Procedural programming
-  * Structured programming
+  - Structured programming
     - Sequential
     - Conditional
     - Repetition
-  * Object-oriented programming | [OOP](oop.md)
+  - Object-oriented programming | [OOP](oop.md)
     - Encapsulation
     - Inheritance
     - Polymorphism
     - Abstraction
-    * Classes
+    - Classes
       - Instances
-    * Objects
-      * Attributes
+    - Objects
+      - Attributes
         - Properties or characteristics
         - Methods or actions or behaviours
-* Declarative programming paradigm
+- Declarative programming paradigm
   - Logic programming paradigms
   - Functional programming paradigms
   - Database/Data driven programming approach
+
 #### Design Principles
-* SOLID Principles (Object-Oriented Design Principles)
-  * Single Responsibility Principle
+
+- SOLID Principles (Object-Oriented Design Principles)
+  - Single Responsibility Principle
     - One task, only one responsibility.
-  * Open/Close Principle
+  - Open/Close Principle
     - Open for extensión, close for modification.
-  * Liskov Substitution Principle
-    - Every subclass or derived class should be substitutable for their base or parent class.
-  * Interface Segregation Principle
+  - Liskov Substitution Principle
+    - Every subclass or derived class should be substitutable for their base or
+      parent class.
+  - Interface Segregation Principle
     - Only require what is used.
-  * Dependency Inversion Principle
+  - Dependency Inversion Principle
     - Entities must depend on abstractions, not on concretions.
+
 - DRY (Don't Repeat Yourself)
 - Encapsulation
 - Composition Over Inheritance
@@ -457,69 +509,81 @@ SDLC is the structured process that ensures software is **high quality, cost-eff
 - Don't Call Us, We'll Call You (Inversion of Control)
 - Simplicity (Simple vs Easy)
 
-* Benefits
-  * Code
+- Benefits
+  - Code
     - clean
     - easy to understand
     - flexible
     - adaptable
     - reusable
   - fewer bugs
+
 #### Architecture Patterns
+
 - Monolith
 - Microservices
 - Microfrontends
 - Client-Server
 - Model-View-Controller
 - Layered
+
 ##### Project Structure
+
 ###### Backend
+
 - By Feature
 - By Layer
 
 MVC
-* src
+
+- src
   - models
   - views
   - controllers
 
 MVC by modules
-* src
-  * xModule
+
+- src
+  - xModule
     - models
     - views
     - controllers
 
 By Hexagonal Architecture / Layer
-* src
-  * domain
+
+- src
+  - domain
     - models
     - services
-  * infrastructure
+  - infrastructure
     - components
     - http
     - repositories
   - application
 
 By Packages / Flux
-* src
-  * packages
-    * xPackage
-      * src
+
+- src
+  - packages
+    - xPackage
+      - src
         - store
         - components
         - actions
         - mutators
-  * shared
-    * xPackage
-      * src
+  - shared
+    - xPackage
+      - src
         - store
         - components
         - actions
         - mutators
+
 ###### Frontend
+
 Basic
-* src
+
+- src
   - css
   - data
   - fonts
@@ -527,7 +591,8 @@ Basic
   - js
 
 By Type File
-* src
+
+- src
   - components
   - directives
   - hooks
@@ -535,37 +600,39 @@ By Type File
   - pipes
   - services
 
-* public
+- public
   - register
   - login
-* private
+- private
   - dashboard
   - profile
 
 By UI
-* src
-  * render (UI)
+
+- src
+  - render (UI)
     - layout
     - pages
     - sections
     - components
     - UI (shared)
-  * logic (no UI)
+  - logic (no UI)
     - services
     - helpers
     - utils
 
 By Feature
-* src
-  * features
-    * xFeature
+
+- src
+  - features
+    - xFeature
       - components
       - directives
       - hooks
       - pages
       - pipes
       - services
-  * shared
+  - shared
     - components
     - directives
     - hooks
@@ -574,7 +641,8 @@ By Feature
     - services
 
 By Clean Architecture
-* src
+
+- src
   - adapters (reusable)
   - assets
   - components (reusable)
@@ -582,8 +650,8 @@ By Clean Architecture
   - hooks (reusable)
   - interceptors (reusable)
   - models (reusable)
-  * pages
-    * xPage
+  - pages
+    - xPage
       - adapters (unique)
       - components (unique)
       - contexts
@@ -598,15 +666,16 @@ By Clean Architecture
   - utilities
 
 By Routes
-* src
-  * pages
+
+- src
+  - pages
     - xRoute
-  * core (no UI)
+  - core (no UI)
     - guards
     - interceptors
     - models
     - services
-  * shared (UI)
+  - shared (UI)
     - components
     - directives
     - hooks
@@ -615,57 +684,63 @@ By Routes
     - services
 
 By Atomic Design
-* src
-  * features
-    * xFeature
+
+- src
+  - features
+    - xFeature
       - atom
       - molecule
       - organism
-  * shared
-    * components
+  - shared
+    - components
       - atom
       - molecule
       - organism
     - hooks
+
 #### Design Patterns
+
 - Singleton
 - Factory
 - Observer
+
 #### UI Design Methodology
-* Atomic Design System
-  * Atom
-    * Subatomic elements
+
+- Atomic Design System
+  - Atom
+    - Subatomic elements
       - Fonts
       - Typography
       - Colors
       - Shadows
       - Animations
-  * Molecule
+  - Molecule
     - Atoms
-  * Organism
+  - Organism
     - Atoms
     - Molecules
-  * Template
+  - Template
     - Atoms
     - Molecules
     - Organisms
-  * Page
+  - Page
     - Atoms
     - Molecules
     - Organisms
     - Templates
-  * Website
+  - Website
     - Atoms
     - Molecules
     - Organisms
     - Templates
     - Pages
+
 - Design Thinking
 - Agile UX
 - Lean UX
 - Material Design
 
-* Debugging
+- Debugging
   - Use a debugger
   - Use git bisect
   - Ask a rubber duck
@@ -673,7 +748,7 @@ By Atomic Design
   - Systemativally fix the bugs
   - Reproduce the failure to ensure the bug is fixed
 
-* Testing
+- Testing
   - given
   - when
   - then
@@ -684,17 +759,20 @@ By Atomic Design
   - Jest, Jasmine, Cypress, Selenium
   - pruebas automatizadas
   - JUnit, Mockito y herramientas de pruebas de integración como TestContainers
+
 ### Cloud
-* Location
+
+- Location
   - On-Premise
   - Cloud Computing
   - Hybrid
   - Intercloud Exchange
+
 - IaaS (Infrastructure as a Service)
 - PaaS (Platform as a Service)
 - SaaS (Software as a Service)
 - Cloud Providers
-* AWS (Amazon Web Services)
+- AWS (Amazon Web Services)
   - EC2 (Elastic Cloud Computing)
   - S3
   - VPC (Virtual Private Cloud)
@@ -708,10 +786,12 @@ By Atomic Design
   - Load Balancing
   - DoS (denial-of-service)
   - Route 53
-  * IP's
+  - IP's
     - Private
     - Public
   - Serverless
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

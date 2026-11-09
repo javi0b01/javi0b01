@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## JAVA
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 - [Java SE & JDK Version 22 API Specification](https://docs.oracle.com/en/java/javase/22/docs/api/index.html)
 - [Java](https://www.java.com/)
 - [Java SE API v7](https://docs.oracle.com/javase/7/docs/api/)
@@ -20,24 +25,32 @@
 - [IntelliJ](https://www.jetbrains.com/idea/)
 - [NetBeans](https://netbeans.org/kb/)
 - Java Doc
+
 ### Requirements
+
 #### Java Installation on Ubuntu system
+
 Default
+
 ```
-$ sudo apt update
-$ java -version
-$ apt install default-jre
-$ javac -version
-$ sudo apt install default-jdk
+sudo apt update
+java -version
+apt install default-jre
+javac -version
+sudo apt install default-jdk
 ```
+
 OpenJDK
+
 ```
-$ sudo apt-get install openjdk-21-jdk
-$ sudo update-alternatives --config java
-$ javac -version
-$ java -version
+sudo apt-get install openjdk-21-jdk
+sudo update-alternatives --config java
+javac -version
+java -version
 ```
+
 ### Terms and concepts
+
 - J2SE (Java2 Standard Edition)
 - J2EE (Java2 Enterprise Edition)
 - IDE (Integrated Development Environment)
@@ -46,30 +59,31 @@ $ java -version
 - JDK (Java Development Kit)
 - OOP (Object-oriented programming)
 - Garbage Collector | Deal-locate unused space
-* Classes
+- Classes
   - Java System | Java Core
   - Programmer-defined | Standard | System
-* Source file (.java)
-  * Code Comments
+- Source file (.java)
+  - Code Comments
     - Single-line, Multi-line, Java Doc
     - Comment markers
   - The main Class
   - The main Method
-  * Interaction
-    * Standard input (System.in)
+  - Interaction
+    - Standard input (System.in)
       - Scanner
-    * Standard output (System.out)
+    - Standard output (System.out)
       - print, println
+
 - Compile the source file (javac)
 - Bytecode (.class)
 - JIT (Just In Time compiler)
 - WORA (Write Once, Run Everywhere)
 - Run the program (java)
-* Errors
+- Errors
   - Syntax
   - Compilation
   - Execution
-* Main features
+- Main features
   - Distribuited
   - Interpreted
   - Multi-threaded
@@ -77,28 +91,28 @@ $ java -version
   - Platform independent
   - Strongly typed
   - Case sensitive
-  * Uses
+  - Uses
     - Console application
     - General purpose
     - Applets
-* Syntax
+- Syntax
   - Keywords
   - Code conventions
   - File names
   - Class names
   - Classes
   - Sentence
-  * Access modifiers
+  - Access modifiers
     - Default (Package), Private, Protected, Public
-  * Scope
+  - Scope
     - Package, Class, Subclass, All
-* Variables
+- Variables
   - Identifiers
   - Final Variables
   - Scope
   - Type Inference
-* Data types
-  * Primitive
+- Data types
+  - Primitive
     - byte
     - short
     - int
@@ -107,29 +121,30 @@ $ java -version
     - double
     - boolean
     - char
-  * Non-primitive or reference types
+  - Non-primitive or reference types
     - String
-    * Array
+    - Array
       - Vector
       - Matriz
       - array vs ArrayList
     - Class
     - Interface
-    * (import package)
-  * Special
+    - (import package)
+  - Special
     - Type ```enum```
-  * Casting
-    * Type Casting
+  - Casting
+    - Type Casting
       - Widening Casting (automatically) smaller to larger
       - Narrowing Casting (manually) larger to smaller
-    * Ways
+    - Ways
       - Automatically
       - Manually
-* Data structures
+- Data structures
   - Variable
   - Constant
+
 - Boolean expressions
-* Operators
+- Operators
   - Assignment
   - Arithmetic
   - Comparison
@@ -137,51 +152,51 @@ $ java -version
   - Bitwise
   - Increment and decrement (pre and post)
   - Concatenation
-* Control structures
+- Control structures
   - Sequential
-  * Conditional
+  - Conditional
     - if
     - if...else (too short hand or Ternary Operator)
     - if...else if...else
     - switch
-  * Loop
+  - Loop
     - for
     - for-Each
     - while
     - do/while
     - Nested loops
-    * Control
+    - Control
       - Counter
       - Guard
-  * Flow handling
+  - Flow handling
     - Break
     - Continue
-* Some Built-in classes
-  * The class Object is super class in Java
+- Some Built-in classes
+  - The class Object is super class in Java
     - All classes in Java by default "extend" the Object class
-  * String
+  - String
     - Concatenation
-    * Special characters
-      * Escape character
+    - Special characters
+      - Escape character
         - Escape sequences
     - Methods
     - Access the characters of a String
     - Format
     - Text block
-  * Array
+  - Array
     - Access the elements of an Array
     - Methods
     - Property
     - Multi-Dimensional Arrays
     - Iterate
-  * Math
+  - Math
     - Methods
   - Thread
-  * ... Java API
-    * Package
+  - ... Java API
+    - Package
       - Default (java.lang), ...more packages(import)
       - Classes
-* Methods or Functions
+- Methods or Functions
   - Pre-Defined methods
   - Own or Custom methods
   - Call operator
@@ -190,19 +205,20 @@ $ java -version
   - Return
   - Overloading
   - Scope
-  * Recursion
+  - Recursion
     - Halting condition
+
 - OOP (Object-oriented programming)
-* Model class (structure, template)
+- Model class (structure, template)
   - Instance (object)
-* Classes
+- Classes
   - Class Definition
-  * Access modifier or Visibility modifier
+  - Access modifier or Visibility modifier
     - default or package-private
     - public
     - private
     - protected
-  * Constructor method
+  - Constructor method
     - Default constructor method
     - Define constructor method
   - this
@@ -211,8 +227,8 @@ $ java -version
   - Instances
   - Objects
   - Type Inference
-  * Methods
-    * Parts of a method
+  - Methods
+    - Parts of a method
       - Range modifier
       - Usage modifier
       - Return type
@@ -223,54 +239,57 @@ $ java -version
   - Generic class
   - Inner class
   - Local inner class
-* Object
-  * Attributes
+- Object
+  - Attributes
     - Propierties/Characteristics
     - Methods/Actions/Behaviours
   - State
+
 - Modularity
 - Encapsulation
-* Inheritance
+- Inheritance
   - Superclass
   - Subclass
   - Only one inheritance, not multiply
-  * Annotations
+  - Annotations
     - @Override
-  * Design inheritance
+  - Design inheritance
     - Rule "It is a/an..."
   - Polymorphism
   - Casting objects
-  * Stop inheritance with ```final```
+  - Stop inheritance with ```final```
     - Class
     - Method
-  * Abstract
+  - Abstract
     - Class
     - Method
-* Interfaces
+- Interfaces
   - Abstract methods
   - Constants
+
 - Package
-* ArrayList
+- ArrayList
   - array vs ArrayList
   - Methods
   - Loop through an ArrayList
-* Constructors
+- Constructors
   - Default
   - Custom
   - Parameters
-* Build automation tools
+- Build automation tools
   - Maven
   - Gradle
   - Ant
+
 - JAR (Java Archive)
-* Collections
-  * Interfaces
+- Collections
+  - Interfaces
     - List
     - Set
     - Queue
     - Map
   - Abstrac class
-  * Concret class
+  - Concret class
     - ArrayList
     - LinkedList
     - HashSet,
@@ -278,22 +297,23 @@ $ java -version
     - HashMap
     - TreeMap
   - Nested
-  * streams
+  - streams
     - Intermediate operations
     - final operations
-* Container Object
+- Container Object
   - Opctional
-* Functions
+- Functions
   - Lambda or anonymous
-* Constructors
+- Constructors
   - Custom constructor
+
 - Dates
 
-* FIFO / First In, First Out
+- FIFO / First In, First Out
   - Queue
   - ArrayList
   - LinkedList
-* LIFO / Last In, First Out
+- LIFO / Last In, First Out
   - Stack
 
 Map
@@ -303,13 +323,15 @@ Generics
 - JDBC or Java Database Connectivity
 - DAO or Data Access Object
 
-* Maven
+- Maven
   - pom or Project Object Model file
 
 - Spring
 - Hibernate
 - ORM or Object-Relational Mapping
 - HQL or Hibernate Query Language
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).

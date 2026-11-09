@@ -1,6 +1,9 @@
 # :memo: Notes
+
 ## SEO
+
 ### Learn
+
 1. What is it
 2. What does it do
 3. Why to use it
@@ -8,7 +11,9 @@
 5. Concepts
 6. Code samples
 7. Documentation
+
 ### Resources
+
 * [Google Search Console](https://search.google.com/search-console/)
 * [Google PageSpeed Insights](https://pagespeed.web.dev/)
 * [Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/beginner/seo-starter-guide)
@@ -20,8 +25,12 @@
 * [Robots.txt](https://moz.com/learn/seo/robotstxt)
 * [Sitemaps XML format](https://www.sitemaps.org/protocol.html)
 * [Google Tag Manager](https://tagmanager.google.com/)
+
 ### Terms and concepts
+
 * SEO or Search Engine Optimization
+
 ## Software Developer
+
 Built by [JAVI](https://github.com/javi0b01/) :copyright: 2020 - 2023  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
