@@ -1,160 +1,110 @@
 # javi0b01
 
-## GitHub Profile
+## Desarrollador de Software Full Stack
 
-### Hello! :wave:, my name is Javier Andrés
+Hola, soy Javier Garzón.
 
-#### I'm a software developer oriented to web development.
+Bogotá, Colombia. Más de 4 años construyendo aplicaciones web y APIs REST.
 
-##### SKILLS
+## Tecnologías
 
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](#)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](#)
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](#)
+HTML y CSS.
 
-[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](#)
+Conectemos en [LinkedIn](https://www.linkedin.com/in/javi0b01/).
 
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](#)
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](#)
+## Experiencia
 
-##### I'm currently learning
+**RYLSA** · Ingeniero/Desarrollador de Software Full Stack
 
-[![Nest](https://img.shields.io/badge/Nest.js-%23E0234E.svg?logo=nestjs&logoColor=white)](#)
+Julio 2025 – agosto 2026
 
-###### I have collaborated in projects using different technologies
+APIs REST con Node.js, Express y TypeScript, interfaces con Angular,
+background jobs con cron, web scraping, CI/CD por Git tags en AWS y GCP,
+MongoDB y PostgreSQL.
 
-[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](#)
-[![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
-[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
-[![Quasar](https://img.shields.io/badge/Quasar-16B7FB?style=for-the-badge&logo=quasar&logoColor=black)](#)
+[Resumen](rylsa.md)
 
-[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](#)
+**Mezubo | HEYGIA** · Desarrollador de Software
 
-[![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)](#)
-[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](#)
-[![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)](#)
-[![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)](#)
-[![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)](#)
+Octubre 2024 – junio 2025
 
-[![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](#)
+Interfaces con Angular, TypeScript y PrimeNG, consumo de APIs REST,
+repositorios en Bitbucket y Jira con Scrum.
 
-[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](#)
-[![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)](#)
-[![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](#)
+[Resumen](mezubo-heygia.md)
 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
+**Vertical** · Desarrollador de Software
 
-[![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)](#)
-[![htmx](https://img.shields.io/badge/htmx-%233366CC.svg?style=for-the-badge&logo=htmx&logoColor=white)](#)
+Octubre 2021 – marzo 2024
 
-[![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)](#)
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
+Interfaces en TypeScript con Vue, Quasar, Astro y Svelte, APIs con Django
+y Django REST framework, contenedores con Docker y pruebas unitarias con
+Jest.
 
-[![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](#)
-[![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](#)
+[Resumen](vertical.md)
 
-[![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)](#)
-[![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](#)
+**Triario** · Desarrollador de Software
 
-[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](#)
+Abril 2021 – septiembre 2021
 
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](#)
+Interfaces con React para NetMédiK (Historia MédiK y Agenda MédiK) y la
+feria virtual de semilleros de la Universidad de Antioquia, con consumo
+de APIs.
 
-Thanks for visiting my [<img
-src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg'
-alt='github' height='16'>](https://github.com/javi0b01)
- •
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg'
-alt='linkedin' height='16'>](https://www.linkedin.com/in/javi0b01/) Let's connect!
-- - -
+[Resumen](triario.md)
 
-### :globe_with_meridians: Online projects
+**BIT** · Especialista/Mentor en Desarrollo de Aplicaciones Web
 
-#### :muscle: Just for fun!
+Febrero 2021 – marzo 2026
 
-JUST FOR FUN projects ― I have done them to practice and review what I have
-learned.  
-´´Practice doesn't make perfect, practice makes better.´´
+Formación Full Stack con MEAN y MERN, y Java (200 horas, preparación de
+la certificación Oracle 1Z0-811), para grupos de hasta 40 desarrolladores.
 
-###### Alphabetic order
+[Resumen](bit.md)
 
-|Nº|Project|Stack|Code|Preview|
-|----|----|----|----|----|
-|01|Calculator|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/training-calculator)|[Live Preview](https://javi0b01.github.io/training-calculator/)|
-|02|Color Generator|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/training-color_generator)|[Live Preview](https://javi0b01.github.io/training-color_generator/)|
-|03|Common words|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/just_for_fun-common_words)|[Live Preview](https://javi0b01.github.io/just_for_fun-common_words/)|
-|04|Compose reggaeton|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/training-compose_reggaeton)|[Live Preview](https://javi0b01.github.io/training-compose_reggaeton/)|
-|05|Clock|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/training-clock)|[Live Preview](https://javi0b01.github.io/training-clock/)|
-|06|Counter|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/training-counter)|[Live Preview](https://javi0b01.github.io/training-counter/)|
-|07|Foreign Exchange|:icecream: HTML, CSS, JavaScript, Third-party API|[View Code](https://github.com/javi0b01/training-foreign_exchange)|[Live Preview](https://javi0b01.github.io/training-foreign_exchange/)|
-|08|Google Homepage|:icecream: HTML, CSS|[View Code](https://github.com/javi0b01/training-google_homepage)|[Live Preview](https://javi0b01.github.io/training-google_homepage/)|
-|09|JSONplaceholder|:ice_cream: Bootstrap, JavaScript, Third-party API|[View Code](https://github.com/javi0b01/training-jsonplaceholder)|[Live Preview](https://javi0b01.github.io/training-jsonplaceholder/)|
-|10|Pokémon Cards|:icecream: HTML, CSS, JavaScript, Third-party API|[View Code](https://github.com/javi0b01/training-pokemon_cards)|[Live Preview](https://javi0b01.github.io/training-pokemon_cards/)|
-|11|Random Team Generator|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/just_for_fun-random_team_generator)|[Live Preview](https://javi0b01.github.io/just_for_fun-random_team_generator/)|
-|12|Responsive Navbar|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/training-responsive_navbar)|[Live Preview](https://javi0b01.github.io/training-responsive_navbar/)|
-|13|Rock, Paper, Scissors|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/odin-rock_paper_scissors)|[Live Preview](https://javi0b01.github.io/odin-rock_paper_scissors/)|
-|14|Timer|:icecream: HTML, CSS, JavaScript|[View Code](https://github.com/javi0b01/just_for_fun-timer)|[Live Preview](https://javi0b01.github.io/just_for_fun-timer/)|
+## Voluntariado
 
-##### Demos
+**Prueba dinámica de agudeza visual**
 
-###### Date descending order
+Octubre 2020 – diciembre 2021
 
-|Date|Project|Stack|Code|Demo|
-|----|----|----|----|----|
-|Jun 2024|Foro Hub|:ice_cream: Java, Spring, MySQL|[View Code](https://github.com/javi0b01/challenge-one_g6-foro_hub)|[View Demo](https://youtu.be/_WqN0zh7yYc)|
-|Jun 2024|Literature|:ice_cream: Java, Spring, PostgreSQL, Third-party API|[View Code](https://github.com/javi0b01/challenge-one_g6-literature)|[View Demo](https://youtu.be/JupZOzY2WaA)|
-|Apr 2024|Conversor de moneda|:icecream: Java, Third-party API|[View Code](https://github.com/javi0b01/challenge-one_g6-conversor_de_moneda)|[View Demo](https://youtu.be/-TJ4sduDhZY)|
-|Dec 2021|Bank|:ice_cream: MERN, PostgreSQL|[View Code](https://github.com/javi0b01/unal-team7_P65_C4_DW/)|[View Demo](https://youtu.be/hh9vCFwJku4)|
+[Ver sitio](https://javi0b01.github.io/development-optometrist/)
 
-##### In my free time
+## Formación
 
-:brain: [Challenges Project
-Euler](https://github.com/javi0b01/challenges-project_euler) *(in progress)*
-- - -
+**Bootcamp Full Stack**
 
-### :octocat: Collaborator in other projects
+Septiembre 2019 – marzo 2021
 
-#### :office: RYLSA ― Projects (Full Stack Engineer/Developer)
+[Resumen](hbtn.md)
 
-:factory: *Jul 2025 - Aug 2026* [Summary](rylsa.md)
+**Oracle Next Education** · Desarrollo Web Full Stack, 286 horas
 
-#### :office: Mezubo | HEYGIA ― Projects (Collaborator/Coder)
+Julio 2024
 
-:factory: *Oct 2024 - Dec 2024* [Summary](mezubo-heygia.md)
+Retos de [Project Euler](https://github.com/javi0b01/challenges-project_euler),
+en progreso.
 
-#### :office: Vertical ― Projects (Collaborator/Coder)
+## Demos
 
-:factory: *Oct 2021 - Mar 2024* [Summary](vertical.md)
+| Fecha | Proyecto | Stack | Código | Demo |
+| --- | --- | --- | --- | --- |
+| Junio 2024 | Foro Hub | Java, Spring, MySQL | [Ver código](https://github.com/javi0b01/challenge-one_g6-foro_hub) | [Ver demo](https://youtu.be/_WqN0zh7yYc) |
+| Junio 2024 | Literature | Java, Spring, PostgreSQL, API de terceros | [Ver código](https://github.com/javi0b01/challenge-one_g6-literature) | [Ver demo](https://youtu.be/JupZOzY2WaA) |
+| Abril 2024 | Conversor de moneda | Java, API de terceros | [Ver código](https://github.com/javi0b01/challenge-one_g6-conversor_de_moneda) | [Ver demo](https://youtu.be/-TJ4sduDhZY) |
+| Diciembre 2021 | Bank | React, Node.js, Express, PostgreSQL | [Ver código](https://github.com/javi0b01/unal-team7_P65_C4_DW/) | [Ver demo](https://youtu.be/hh9vCFwJku4) |
 
-#### :office: Triario ― Projects (Collaborator/Coder)
+## Notas
 
-:factory: *Apr 2021 - Sep 2021* [Summary](triario.md)
-
-#### :office: BIT ― Projects (Mentor)
-
-:factory: *Feb 2021 - Mar 2025* [Summary](bit.md)
-- - -
-
-### :checkered_flag: Development like volunteering
-
-- *Oct 2020 - Dec 2021* [Prueba dinámica de agudeza visual](https://javi0b01.github.io/development-optometrist/)
-
-- - -
-
-### :bulb: Other repositories
-
-#### :snake: hbtn ― Projects
-
-:school: *Sep 2019 - May 2021* [Summary](hbtn.md)
-
-:unlock: Explore, Programming Challenges, Courses, Exercises, Examples, Tests.  
-:lock: Development ― Private projects (Private repositories)
-- - -
-
-###### :memo: Notes
-
-:bookmark: [algorithmics](algorithmics.md) | [angular](angular.md) |
+[algorithmics](algorithmics.md) | [angular](angular.md) |
 [api](api.md) | [astro](astro.md) | [aws](aws.md) | [bootstrap](bootstrap.md) |
 [brainstorming](brainstorming.md) | [c](c.md) | [c#](c-sharp.md) |
 [css](css.md) | [cursor](cursor.md) | [django](django.md) | [django rest
@@ -172,8 +122,28 @@ template](email_template.md) | [employment](employment.md) |
 [sergey](sergey.md) | [setups](setups.md) | [software
 founder](software-founder.md) | [spring](spring.md) | [sql](sql.md) |
 [ssh](ssh.md) | [svelte](svelte.md) | [typescript](typescript.md) |
-[versioning](versioning.md) | [vuejs](vuejs.md) | [webpack](webpack.md) | [zdocs](zdocs.md)
-- - -
-Found a bug or have an idea? [Contact
-me](https://www.linkedin.com/in/javi0b01/).  
-:copyright: Sep, 2019 ~ 2026
+[versioning](versioning.md) | [vuejs](vuejs.md) | [webpack](webpack.md) |
+[zdocs](zdocs.md)
+
+## Práctica
+
+Ejercicios de práctica con HTML, CSS y JavaScript.
+
+| Nº | Proyecto | Stack | Código | Vista previa |
+| --- | --- | --- | --- | --- |
+| 01 | Calculator | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/training-calculator) | [Vista previa](https://javi0b01.github.io/training-calculator/) |
+| 02 | Clock | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/training-clock) | [Vista previa](https://javi0b01.github.io/training-clock/) |
+| 03 | Color Generator | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/training-color_generator) | [Vista previa](https://javi0b01.github.io/training-color_generator/) |
+| 04 | Common words | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/just_for_fun-common_words) | [Vista previa](https://javi0b01.github.io/just_for_fun-common_words/) |
+| 05 | Compose reggaeton | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/training-compose_reggaeton) | [Vista previa](https://javi0b01.github.io/training-compose_reggaeton/) |
+| 06 | Counter | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/training-counter) | [Vista previa](https://javi0b01.github.io/training-counter/) |
+| 07 | Foreign Exchange | HTML, CSS, JavaScript, API de terceros | [Ver código](https://github.com/javi0b01/training-foreign_exchange) | [Vista previa](https://javi0b01.github.io/training-foreign_exchange/) |
+| 08 | Google Homepage | HTML, CSS | [Ver código](https://github.com/javi0b01/training-google_homepage) | [Vista previa](https://javi0b01.github.io/training-google_homepage/) |
+| 09 | JSONplaceholder | Bootstrap, JavaScript, API de terceros | [Ver código](https://github.com/javi0b01/training-jsonplaceholder) | [Vista previa](https://javi0b01.github.io/training-jsonplaceholder/) |
+| 10 | Pokémon Cards | HTML, CSS, JavaScript, API de terceros | [Ver código](https://github.com/javi0b01/training-pokemon_cards) | [Vista previa](https://javi0b01.github.io/training-pokemon_cards/) |
+| 11 | Random Team Generator | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/just_for_fun-random_team_generator) | [Vista previa](https://javi0b01.github.io/just_for_fun-random_team_generator/) |
+| 12 | Responsive Navbar | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/training-responsive_navbar) | [Vista previa](https://javi0b01.github.io/training-responsive_navbar/) |
+| 13 | Rock, Paper, Scissors | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/odin-rock_paper_scissors) | [Vista previa](https://javi0b01.github.io/odin-rock_paper_scissors/) |
+| 14 | Timer | HTML, CSS, JavaScript | [Ver código](https://github.com/javi0b01/just_for_fun-timer) | [Vista previa](https://javi0b01.github.io/just_for_fun-timer/) |
+
+© Septiembre 2019 – 2026
