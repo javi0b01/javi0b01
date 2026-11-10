@@ -1,26 +1,18 @@
 root = true
 
 # Repository EditorConfig — Markdown-only project.
-# Global defaults for all files; markdown overrides follow.
+# Defaults for every file. Markdown keeps trailing spaces: two spaces
+# are a hard line break. Other files drop trailing whitespace.
 charset = utf-8
 end_of_line = lf
 insert_final_newline = true
-# Keep trailing whitespace in general off by default, but allow it for Markdown
-# because two trailing spaces can be meaningful (line break) in Markdown.
-trim_trailing_whitespace = false
+trim_trailing_whitespace = true
 indent_style = space
 indent_size = 2
 
 [*.md]
-# Markdown-specific conventions and best practices
-charset = utf-8
-end_of_line = lf
-insert_final_newline = true
-trim_trailing_whitespace = false
-indent_style = space
-indent_size = 2
-# Soft line length limit for readability (80 characters)
 max_line_length = 80
+trim_trailing_whitespace = false
 
 # Preserve tabs in Makefiles if any exist
 [Makefile]

@@ -1,0 +1,22 @@
+---
+description: Apply markdownlint and EditorConfig when editing Markdown
+globs: "**/*.md"
+alwaysApply: true
+---
+
+# Markdownlint (obligatorio)
+
+Al crear o editar un archivo Markdown (`.md`), aplica
+[markdownlint](https://github.com/DavidAnson/markdownlint)
+(`davidanson.vscode-markdownlint`).
+
+## Requisitos
+
+- Qué falla el linter lo define `.markdownlint.json`. No reescribas esas
+  reglas aquí.
+- Estilo de archivo (indentación, fin de línea, newline final, espacios
+  finales y tope de columna): `.editorconfig`.
+- No edites ni pases por `markdownlint-cli2` las rutas de
+  `.markdownlintignore`.
+- Tras escribir o editar un `.md` fuera de esa lista, verifica con
+  `markdownlint-cli2` (y ReadLints) y corrige antes de dar por cerrado.
