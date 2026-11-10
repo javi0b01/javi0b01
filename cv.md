@@ -57,7 +57,7 @@ TypeScript, Angular, NestJS, PostgreSQL, Docker y AWS.
 Febrero 2021 - Marzo 2026. En paralelo con los demás cargos.
 
 * Formación Full Stack con MEAN y MERN, para grupos de hasta 40
-  desarrolladores.
+  estudiantes.
 
 **FORMACIÓN ACADÉMICA Y APRENDIZAJE CONTINUO**
 
