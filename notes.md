@@ -39,6 +39,10 @@ framework, SQL, Docker.
 **BIT.** Git, HTML, CSS, JavaScript, TypeScript, Angular, React,
 Bootstrap, MongoDB, Node, Express, Java.
 
+## Voluntariado
+
+**Prueba dinámica de agudeza visual** | Octubre 2020 – diciembre 2021 | [Ver sitio](https://javi0b01.github.io/development-optometrist/)
+
 ## Project Euler
 
 Retos de [Project Euler](https://github.com/javi0b01/challenges-project_euler),
