@@ -1,12 +1,12 @@
-# Desarrollador de Software Full Stack
-
-Hola, soy Javier Garzón.
-
-Más de 4 años construyendo aplicaciones web y APIs REST.
+# Javier Garzón
 
 Bogotá, Colombia.
 
-## Tecnologías
+## Desarrollador de Software Full Stack
+
+Más de 4 años construyendo aplicaciones web, APIs REST y arquitecturas escalables.
+
+## Tecnologías Core
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -16,9 +16,9 @@ Bogotá, Colombia.
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-Conectemos en [LinkedIn](https://www.linkedin.com/in/javi0b01/).
+<!--Conectemos en [LinkedIn](https://www.linkedin.com/in/javi0b01/).-->
 
-## Experiencia
+## Experiencia Profesional
 
 **RYLSA S.A.** · Desarrollador de Software Full Stack
 
@@ -60,8 +60,9 @@ desarrolladores.
 
 ---
 
+<a href="https://github.com/javi0b01"><img
+src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
+alt="github" height="16"></a>
 javi0b01 © Septiembre 2019 – 2026
-
----
 
 <small><a href="notes.md">Notas</a></small>
