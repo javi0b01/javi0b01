@@ -56,7 +56,7 @@ de APIs.
 *Febrero 2021 – Marzo 2026*, en paralelo con los demás cargos | Bogotá D.C. - Remoto
 
 Formación Full Stack con MEAN y MERN, para grupos de hasta 40
-desarrolladores.
+estudiantes.
 
 ---
 
